@@ -1,0 +1,20 @@
+/* pages/student/challenge/answer/answer.wxss */
+.answerBg{
+  width: 100%;
+  position: relative;
+  top:0;
+  left:0;
+  min-height:1200rpx;
+}
+
+.answerMain{
+  position: absolute;
+  top:42rpx;
+  left:40rpx;
+  z-index: 99;
+}
+
+.clock{
+  width: 38rpx;
+  height: 38rpx;
+} 

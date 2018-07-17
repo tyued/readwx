@@ -1,0 +1,128 @@
+/* pages/student/home/billBoard/billBoard.wxss */
+
+.Ranking{
+  width: 50rpx;
+}
+.RankingImg{
+  width: 50rpx;
+  height: 60rpx;
+  margin-top:20rpx;
+}
+.infoImg{
+  margin-left:30rpx;
+}
+.infoImgHead{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50rpx;
+}
+.info{
+  margin-left:35rpx;
+  width: 250rpx;
+}
+.infoname{
+  color:#666;
+  font-size: 30rpx;
+}
+
+.myinfoname{
+  color:#fff;
+  font-size: 30rpx;
+}
+.infoLevel{
+  width: 110rpx;
+  height: 40rpx;
+  background-color: #5297f7;
+  border-radius: 20rpx;
+  color:#fff;
+  line-height: 40rpx;
+  font-size: 25rpx;
+  margin-top:10rpx;
+  font-style: italic;
+}
+
+.myinfoLevel{
+  width: 110rpx;
+  height: 40rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  color:#5297f7;
+  line-height: 40rpx;
+  font-size: 25rpx;
+  margin-top:10rpx;
+}
+.content{
+  height: 110rpx;
+  width: 100%;
+  margin-bottom:60rpx;
+}
+.infogarde{
+  font-size: 30rpx;
+  color:#5297f7;
+  line-height: 110rpx;
+}
+
+.switch{
+  width: 100%;
+  background-color: #f7f7f7;
+  height: 100rpx;
+  margin-bottom:30rpx;
+  position: fixed;
+  top:0;
+}
+.thisClass,.thisSchool{
+  width: 50%;
+}
+
+.thisClassText,.thisSchoolText{
+  color:#999;
+  width: 100rpx;
+  height: 95rpx;
+  line-height: 95rpx;
+  margin:0 auto;
+}
+.active{
+  color:#000;
+  border-bottom:5rpx solid #5297f7;
+}
+
+.indexRank{
+  height: 90rpx;
+  width: 50rpx;
+  font-size: 40rpx;
+  line-height: 90rpx;
+}
+.myindexRank{
+  height: 140rpx;
+  width: 50rpx;
+  font-size: 40rpx;
+  line-height: 140rpx;
+  color:#fff;
+  margin-left:40rpx;
+}
+.myInfo{
+  width: 100%;
+  height: 140rpx;
+  background-color: #5297f7;
+  position: fixed;
+  bottom:0;
+  left:0;
+}
+.myInfogarde{
+  font-size: 30rpx;
+  color:#fff;
+  line-height: 140rpx;
+}
+.myinfo{
+  margin-top:20rpx;
+  margin-left:35rpx;
+  width: 250rpx;
+}
+
+.myinfoImgHead{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50rpx;
+  margin-top:30rpx;
+  margin-left:40rpx;
+}

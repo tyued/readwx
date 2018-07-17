@@ -1,0 +1,90 @@
+// pages/student/home/home/home.js
+
+var app = getApp();
+Page({
+
+  /**
+   * 页面的初始数据
+   */
+  data: {
+  
+  },
+  myNews:function(){
+    
+    wx.navigateTo({
+      url:"../news/news"
+    })
+  },
+    /**
+     *    * 生命周期函数--监听页面加载
+     *    */
+  onLoad: function (options) {
+    app.editTabBar(0); 
+  },
+      
+ 
+
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady: function () {
+  
+  },
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
+  
+  },
+
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide: function () {
+  
+  },
+
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload: function () {
+  
+  },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh: function () {
+  
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
+  
+  },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+  
+  },
+  renderRise:function(){//跳转晋级页面
+    wx.navigateTo({
+      url: "../promotionRules/promotionRules"
+    })
+  },
+  renderbillBoard:function(){//跳转风云榜
+    wx.navigateTo({
+      url: "../billBoard/billBoard"
+    })
+  },
+  renderBookDetail:function(){//跳转到书籍详情
+   wx.navigateTo({
+     url:'../bookDetail/bookDetail'
+   })
+  }
+})

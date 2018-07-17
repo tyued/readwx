@@ -1,0 +1,49 @@
+/* pages/student/home/promotionRules/promotionRules.wxss */
+.jinji{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.content{
+  margin: 0;
+  padding: 0;
+}
+.award{
+  position: absolute;
+  top:500rpx;
+  left:150rpx;
+  
+}
+text{
+  color:#fff;
+  line-height: 50rpx;
+}
+
+.awardRight{
+  margin-left:120rpx;
+}
+
+.level{
+  position: absolute;
+  top:750rpx;
+  left:90rpx;
+}
+.levelTitle{
+   width: 170rpx;
+   
+}
+.levelName{
+  width: 250rpx;
+  text-align: center;
+}
+.levelNum{
+  width:100rpx;
+  margin-left:40rpx;
+}
+.levelList{
+  
+  height: 70rpx;
+}

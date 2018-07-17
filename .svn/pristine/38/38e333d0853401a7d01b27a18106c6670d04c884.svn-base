@@ -1,0 +1,9 @@
+<!--pages/student/challenge/answer/answer.wxml-->
+
+<image src="../../../../image/anwer.png" class="answerBg"></image>
+<view class="answerMain main">
+  <view>
+    <image src="../../../../image/clock.png" class="clock"></image>
+    <text>19: 22</text>
+  </view>
+</view>

@@ -1,0 +1,53 @@
+<!--pages/student/home/promotionRules/promotionRules.wxml-->
+<view class="content">
+  <image src="../../../../image/jinji.png" class="jinji" mode="widthFix"></image>
+  <view class="award">
+    <view class="awardLeft left">
+      <text class="block">提交一篇读书心得</text>
+      <text class="block">通过一个挑战</text>
+    </view>
+    <view class="awardRight left">
+      <text class="block">成长值：5</text>
+      <text class="block">成长值：5</text>
+    </view>  
+  </view>
+
+  <view class="level">
+    <view class="clear levelList">
+      <text class="levelTitle block left">等级</text>
+      <text class="levelName tc block left">等级称号</text>
+      <text class="levelNum tc block left">成长值</text>
+    </view>
+
+    <view  class="clear levelList">
+      <text class="levelTitle block left">Lv1</text>
+      <text class="levelName block left">一级阅读小书生</text>
+      <text class="levelNum block left">100~200</text>
+    </view>
+     <view  class="clear levelList">
+      <text class="levelTitle block left">Lv1</text>
+      <text class="levelName block left">一级阅读小书生</text>
+      <text class="levelNum block left">100~200</text>
+    </view>
+    <view  class="clear levelList">
+      <text class="levelTitle block left">Lv1</text>
+      <text class="levelName block left">一级阅读小书生</text>
+      <text class="levelNum block left">100~200</text>
+    </view>
+    <view  class="clear levelList">
+      <text class="levelTitle block left">Lv1</text>
+      <text class="levelName block left">一级阅读小书生</text>
+      <text class="levelNum block left">100~200</text>
+    </view>
+    <view  class="clear levelList">
+      <text class="levelTitle block left">Lv1</text>
+      <text class="levelName block left">一级阅读小书生</text>
+      <text class="levelNum block left">100~200</text>
+    </view>
+    <view  class="clear levelList">
+      <text class="levelTitle block left">Lv1</text>
+      <text class="levelName block left">一级阅读小书生</text>
+      <text class="levelNum block left">100~200</text>
+    </view>
+  </view>
+</view>

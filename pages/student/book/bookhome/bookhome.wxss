@@ -1,0 +1,184 @@
+/* pages/student/book/bookhome/bookhome.wxss */
+@import "/pages/component/tabbar/tabbar.wxss";
+@import "../../../font/iconfont.wxss";
+.menu{
+  width: 100%;
+  height: 100rpx;
+  position: fixed;
+  top:1rpx;
+  left:0;
+  z-index: 99;
+  background-color: #fff;
+}
+
+.main {
+  padding-bottom:60rpx !important;
+}
+.grade,.type{
+  width: 50%;
+  height: 100rpx;
+}
+.gardeDetail{
+  width: 140rpx;
+  height: 100rpx;
+  margin:0 auto;
+}
+.typeDetail{
+  width: 170rpx;
+  height: 100rpx;
+  margin:0 auto;
+}
+.gradeText{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+.typeText{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+
+.iconxia{
+  font-size: 25rpx;
+  line-height: 100rpx;
+  margin-left:5rpx;
+  margin-top:5rpx;
+}
+.panel{
+  width: 100%;
+  min-height: 200rpx;
+  box-shadow: 0rpx 13rpx 0rpx #d4e2f1;
+  margin:0 auto;
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+  background-color: #fff;
+  top:100rpx;
+  box-sizing:border-box;
+  padding:30rpx;
+  position: absolute;
+  z-index:999;
+}
+
+.gradeTitle{
+  color:#666;
+  margin-bottom: 60rpx;
+}
+
+.gradeTerm{
+  border-radius: 30rpx;
+  width: 150rpx;
+  height: 60rpx;
+  margin: 0rpx 11rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.activeButton{
+  background-color: #5297f7 !important;
+  color:#fff !important;
+  border-style:none !important;
+  margin-bottom: 60rpx !important;
+}
+
+.normalButton{
+  color: #5297f7;
+  background-color:#eff6ff;
+  margin-bottom: 60rpx;
+}
+
+.finish{
+  width: 300rpx;
+  height: 90rpx;
+  margin: 0 auto;
+}
+.panellist{
+  overflow: hidden;
+  width: 100%;
+}
+.typeList{
+  width: 180rpx;
+  margin-right:30rpx;
+  margin-left:20rpx;
+}
+
+.bookmain{
+  padding-top:160rpx;/*bottom值为footer的高*/
+  box-sizing:border-box;/*这里改变盒子模型为怪异盒模型，这样padding值不会增加main的高度*/
+  overflow-y:scroll;
+}
+
+.bookimg{
+  width: 210rpx;
+  height: 290rpx;
+  border-radius: 20rpx;
+}
+.readtype{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 130rpx;
+  height: 130rpx;
+  border-top-left-radius: 20rpx;
+}
+.bookinfo{
+  margin-left:20rpx;
+
+}
+.bookname{
+  font-size: 34rpx;
+  color:#000;
+}
+.bookautho{
+  font-size: 28rpx;
+  color:#666;
+  padding-top: 20rpx;
+}
+.readnum{
+  width: 150rpx;
+  background-color: #EFF6FE;
+  height:34rpx;
+  border-radius: 18rpx;
+  margin-top:20rpx;
+}
+.numicon{
+  color:#5C93D8;
+  font-size: 20rpx;
+  margin-top:-22rpx;
+  margin-left:6rpx;
+}
+
+.num{
+  font-size: 20rpx;
+  color:#5C93D8;
+  line-height: 34rpx;
+  float: left;
+  margin-left:7rpx;
+}
+.booklist{
+  height: 350rpx;
+  position: relative;
+}
+
+
+.autoline{
+  width: 100%;
+  margin-bottom:50rpx;
+}
+
+.topline{
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 99;
+}
+
+.blodline{
+  top:102rpx;
+  position: fixed;
+  left:0;
+  z-index: 99;
+}

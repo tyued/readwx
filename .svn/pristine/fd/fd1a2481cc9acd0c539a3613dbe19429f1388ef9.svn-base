@@ -1,0 +1,201 @@
+<!--pages/student/home/billBoard/billBoard.wxml-->
+<view class="switch">
+  <view class="thisClass tc left" bindtap="switchClass">
+    <text class="thisClassText  {{isThisClass ? 'active' : ''}} block">本班</text>
+  </view>
+<view class="thisSchool tc left"  bindtap="switchSchool">
+<text class="thisSchoolText  {{isThisSchool ? 'active' : ''}} block">本校</text>
+</view>
+</view>
+<view class="iosFixed warp clear">
+
+
+<view class="content clear">
+  <view class="Ranking left">
+    <image class="RankingImg" src="../../../../image/one.png"></image>
+  </view>
+  <view class="infoImg left">
+    <image class="infoImgHead" src="../../../../image/ex.png"></image>
+  </view>
+  <view class="info left">
+    <text class="block infoname">周杰伦</text>
+    <text class="infoLevel block tc">Lv.15</text>
+  </view>
+  <view class="infogarde left">
+    成长值：3210
+  </view>
+</view>
+
+
+<view class="content clear">
+  <view class="Ranking left">
+    <image class="RankingImg" src="../../../../image/one.png"></image>
+  </view>
+  <view class="infoImg left">
+    <image class="infoImgHead" src="../../../../image/ex.png"></image>
+  </view>
+  <view class="info left">
+    <text class="block infoname">周杰伦</text>
+    <text class="infoLevel block tc">Lv.15</text>
+  </view>
+  <view class="infogarde left">
+    成长值：3210
+  </view>
+</view>
+
+
+<view class="content clear">
+  <view class="Ranking left">
+    <image class="RankingImg" src="../../../../image/one.png"></image>
+  </view>
+  <view class="infoImg left">
+    <image class="infoImgHead" src="../../../../image/ex.png"></image>
+  </view>
+  <view class="info left">
+    <text class="block infoname">周杰伦</text>
+    <text class="infoLevel block tc">Lv.15</text>
+  </view>
+  <view class="infogarde left">
+    成长值：3210
+  </view>
+</view>
+
+
+<view class="content clear">
+  <view class="Ranking left">
+    <image class="RankingImg" src="../../../../image/one.png"></image>
+  </view>
+  <view class="infoImg left">
+    <image class="infoImgHead" src="../../../../image/ex.png"></image>
+  </view>
+  <view class="info left">
+    <text class="block infoname">周杰伦</text>
+    <text class="infoLevel block tc">Lv.15</text>
+  </view>
+  <view class="infogarde left">
+    成长值：3210
+  </view>
+</view>
+
+
+<view class="content clear">
+  <view class="Ranking left">
+    <image class="RankingImg" src="../../../../image/one.png"></image>
+  </view>
+  <view class="infoImg left">
+    <image class="infoImgHead" src="../../../../image/ex.png"></image>
+  </view>
+  <view class="info left">
+    <text class="block infoname">周杰伦</text>
+    <text class="infoLevel block tc">Lv.15</text>
+  </view>
+  <view class="infogarde left">
+    成长值：3210
+  </view>
+</view>
+
+
+<view class="content clear">
+  <view class="Ranking left">
+    <image class="RankingImg" src="../../../../image/one.png"></image>
+  </view>
+  <view class="infoImg left">
+    <image class="infoImgHead" src="../../../../image/ex.png"></image>
+  </view>
+  <view class="info left">
+    <text class="block infoname">周杰伦</text>
+    <text class="infoLevel block tc">Lv.15</text>
+  </view>
+  <view class="infogarde left">
+    成长值：3210
+  </view>
+</view>
+
+<view class="content clear">
+  <view class="Ranking left">
+    <image class="RankingImg" src="../../../../image/two.png"></image>
+  </view>
+  <view class="infoImg left">
+    <image class="infoImgHead" src="../../../../image/ex.png"></image>
+  </view>
+  <view class="info left">
+    <text class="block infoname">周杰伦</text>
+    <text class="infoLevel block tc">Lv.15</text>
+  </view>
+  <view class="infogarde left">
+    成长值：3210
+  </view>
+</view>
+
+
+
+<view class="content clear">
+  <view class="Ranking left">
+    <image class="RankingImg" src="../../../../image/three.png"></image>
+  </view>
+  <view class="infoImg left">
+    <image class="infoImgHead" src="../../../../image/ex.png"></image>
+  </view>
+  <view class="info left">
+    <text class="block infoname">周杰伦</text>
+    <text class="infoLevel block tc">Lv.15</text>
+  </view>
+  <view class="infogarde left">
+    成长值：3210
+  </view>
+</view>
+
+
+
+<view class="content clear">
+  <view class="Ranking left">
+    <text class="indexRank tc block">4</text>
+  </view>
+  <view class="infoImg left">
+    <image class="infoImgHead" src="../../../../image/ex.png"></image>
+  </view>
+  <view class="info left">
+    <text class="block infoname">周杰伦</text>
+    <text class="infoLevel block tc">Lv.15</text>
+  </view>
+  <view class="infogarde left">
+    成长值：3210
+  </view>
+</view>
+
+
+<view class="content clear">
+  <view class="Ranking left">
+    <text class="indexRank tc block">5</text>
+  </view>
+  <view class="infoImg left">
+    <image class="infoImgHead" src="../../../../image/ex.png"></image>
+  </view>
+  <view class="info left">
+    <text class="block infoname">周杰伦</text>
+    <text class="infoLevel block tc">Lv.15</text>
+  </view>
+  <view class="infogarde left">
+    成长值：3210
+  </view>
+</view>
+
+</view>
+
+<view class="myInfo clear">
+  
+  <view class="Ranking left">
+    <text class="myindexRank tc block">我</text>
+  </view>
+  <view class="infoImg left">
+    <image class="myinfoImgHead" src="../../../../image/ex.png"></image>
+  </view>
+  <view class="myinfo left">
+    <text class="block myinfoname ">周杰伦</text>
+    <text class="myinfoLevel block tc">Lv.15</text>
+  </view>
+  <view class="myInfogarde left ">
+    成长值：3210
+  </view>
+
+</view>

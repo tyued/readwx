@@ -1,0 +1,14 @@
+<!--pages/login/login.wxml-->
+<view class="login-main clear">
+  <view class="clear login">
+    <icon class="iconfont icon-ren111 left {{isphone ? 'isactive' : ''}}"></icon>
+    <input placeholder=" 请输入手机号" placeholder-class="phonePlace" focus class="phone left"  confirm-type="done" bindtap="phone" confirm-hold="false"/>
+  </view>
+  <view class="line clear"></view>
+  <view class="clear login">
+    <icon class="iconfont icon-42 left  {{ispass ? 'isactive' : ''}}"></icon>
+    <input placeholder=" 请输入密码" placeholder-class="passwordPlace" password='true' class="password left"  confirm-type="done" confirm-hold="false" bindtap="password"/>
+  </view>
+  <view class="line clear"></view>
+  <button size="default" bindtap="renderuser" class="">登录</button>
+</view>

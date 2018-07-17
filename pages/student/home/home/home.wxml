@@ -1,0 +1,45 @@
+<!--pages/student/home/home/home.wxml-->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<view class="main">
+
+<view class="userInfo clear">
+<image bindtap="renderbillBoard" class="levelIcon " src="../../../../image/levelIcon.png"></image>
+<image class="pic left clear"  bindtap="rendermyhome" src="../../../../image/ex.png"></image>
+<view class="infolevel clear left">
+  <text class="name" bindtap="rendermyhome">周杰伦</text>
+  <view class="level" bindtap="renderRise"><i class="italic">LV1 </i> 一级阅读小书生</view>
+  <view class="mynews" bindtap="myNews">
+  <image class="message" src="../../../../image/message.png"></image>
+  <view class="circleRed"></view>
+  </view>
+  
+</view>
+
+</view>
+<view class="line otherline clear"></view>
+
+<view class="booktext clear">
+<image class="yellow left" src="../../../../image/yellow.png"></image>
+<text class="booktitle left">同学热读</text>
+</view>
+<view class="booklist clear">
+<image class="bookimg left clear" src="{{item.Image}}" data-Id="{{item.ID}}" wx:for="{{bookList}}" wx:key="{{item.ID}}" bindtap="renderBookDetail"></image>
+</view>
+<view class="autoline clear"></view>
+<view class="booktext top">
+<image class="blue left" src="../../../../image/blue.png"></image>
+<text class="booktitle left">班级动态</text>
+</view>
+<block wx:for="{{classList}}" wx:key="{{item.ID}}">
+  <view class="dynamicList clear">
+    <image class="dynamicHead left" src="../../../../image/ex.png"></image>
+    <view class="dynamicInfo left">
+      <text class="block textName">周杰伦</text>
+      <text class="block textBook">{{item.ActionContent}}</text>
+      <text class="block textTime">{{item.AddTime}}</text>
+    </view>
+  </view>
+  <view class="autoline clear"></view>
+</block>
+</view>
+<template is="tabBar" data="{{tabbar}}"/>

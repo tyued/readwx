@@ -1,0 +1,58 @@
+<!--pages/student/mycenter/myhome/myhome.wxml-->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<view class="content">
+  <image class="head block" src="../../../../image/ex.png" bindtap='renderInfo'></image>
+  <view class="info"  bindtap='renderInfo'>
+    <text class="name">周杰伦 </text>
+    <text class="level">LV1</text>
+  </view>
+
+  <view class='progess clear'>
+    <image src="../../../../image/progessleft.png" class="progessleft left"></image>
+    <view class="progessitem left" >
+      <progress percent="100" stroke-width="15" backgroundColor="#e8e7e8" activeColor="#ffd00b" active active-mode="backwards"/>
+      <view class="progessinfo clear">
+        <image src="../../../../image/writestar.png" class="writestar  left block"></image>
+        <text class="protext left block"> 0/200</text>
+      </view>
+    </view>
+    <image src="../../../../image/progess.png" class="graypro left"></image>
+  </view>
+
+  <view class="leveltext">
+  一级阅读小书生
+  </view>
+</view>
+
+
+<view class="list clear">
+  <view class="item clear" bindtap='renderChallenge'>
+    <image src="../../../../image/chanicon.png" class="titleicon block left"></image>
+    <text class="titletext block left">挑战证书</text>
+    <image src="../../../../image/xia.png" class="handelicon block left"></image>
+  </view>
+  <view class="clear blueline"></view>
+  <view class="item clear"  bindtap='renderReadResult'>
+    <image src="../../../../image/readicon.png" class="titleicon block left"></image>
+    <text class="titletext block left">阅读成果报告</text>
+    <image src="../../../../image/xia.png" class="handelicon block left"></image>
+    <view class="circlered"></view>
+  </view>
+</view>
+
+
+
+<view class="list mybooklist">
+  <view class="item clear" bindtap='rendermybook'>
+    <image src="../../../../image/bookicon.png" class="titleicon block left"></image>
+    <text class="titletext block left">我的书架</text>
+    <image src="../../../../image/xia.png" class="handelicon block left"></image>
+  </view>
+  <view class="clear blueline"></view>
+  <view class="item clear" bindtap='renderDetailWrite'>
+    <image src="../../../../image/xindeicon.png" class="titleicon block left"></image>
+    <text class="titletext block left">我的心得</text>
+    <image src="../../../../image/xia.png" class="handelicon block left"></image>
+  </view>
+</view>
+<template is="tabBar" data="{{tabbar}}"/>

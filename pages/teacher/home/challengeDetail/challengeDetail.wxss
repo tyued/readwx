@@ -1,0 +1,85 @@
+/* pages/teacher/home/challengeDetail/challengeDetail.wxss */
+
+@import "/pages/component/tabbar/tabbar.wxss";
+
+.progessmain{
+  overflow: hidden;
+  margin:0 32rpx;
+}
+.challenge{
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.challengetitle{
+  font-size: 32rpx;
+  font-weight: 600;
+}
+
+.more{
+  float:right;
+  font-size: 32rpx;
+}
+
+.challengelist{
+  width: 144rpx;
+  height: 220rpx;
+  margin:30rpx 20rpx 42rpx 10rpx;
+}
+
+.listimg{
+  width: 92rpx;
+  height: 92rpx;
+  border-radius: 100%;
+  margin:0rpx auto 28rpx auto;
+}
+
+.title{
+  height: 44rpx;
+  width: 500rpx;
+  margin:0 auto;
+}
+
+.listname{
+  font-size: 32rpx;
+  text-align: center;
+}
+
+.listgrade{
+  font-size: 24rpx;
+  color:#666;
+  text-align: center;
+  margin:24rpx 0rpx 0rpx 0rpx;
+}
+
+.fenshu{
+  font-style: initial;
+  font-size: 24rpx;
+  color:#f65b6b;
+}
+
+
+.leftheng,.rightheng{
+  width: 117rpx;
+  height: 2rpx;
+  margin-top:20rpx;
+}
+
+.leftheng{
+  margin-right: 18rpx;
+}
+
+.rightheng{
+  margin-left: 18rpx;
+}
+
+.passtext{
+  color:#5297f7;
+  font-size: 32rpx;
+}
+
+.challengeWarp{
+  width: 100%;
+  overflow: hidden;
+}

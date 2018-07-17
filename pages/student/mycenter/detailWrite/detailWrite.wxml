@@ -1,0 +1,115 @@
+<!--pages/student/home/bookReview/bookReview.wxml-->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<view class="topline"></view>
+
+<view class="reviewMain clear">
+  <view class="switch clear">
+    <view class="thisClass left" bindtap="switchThisClass">
+      <text class="classText tc block {{thisClass ? 'active' : ''}}">已发布</text>
+      <text class="bluebot block" wx:if="{{thisClass}}"></text>
+    </view>
+    <view class="thisClass left"  bindtap="switchThisSchool">
+      <text class="classText tc block {{thisSchool ? 'active' : ''}}">未发布</text>
+      <text class="bluebot block" wx:if="{{thisSchool}}"></text>
+    </view>
+    <view class="thisClass left"  bindtap="switchThisMy">
+      <text class="classText tc block {{thisMy ? 'active' : ''}}">已收藏</text>
+      <text class="bluebot block" wx:if="{{thisMy}}"></text>
+    </view>
+  </view>
+
+  <view class="warp clear">
+    <view class="clear block list"> 
+      <text class="bookname">书籍：小王子</text>
+      <view class="reviewContent clear">
+        <view class="reviewList clear">
+          <view class="tipsLeft left">
+            <text class="block bookNameTitle">小王子读后感</text>
+            <text class=" tipsName">周杰伦</text>
+            <text class=" tipsLevel">Lv1</text>
+            <view class="tipsStatu clear">
+              <image  src="../../../../image/heart.png" class="heart left"></image>
+              <text class="heartText block left">11</text>
+              <image src="../../../../image/chat.png" class="chat left"></image>
+              <text class="chatText block left">11</text>
+              <image src="../../../../image/star.png" class="star left"></image>
+              <text class="starText block left">11</text>
+            </view>
+          </view>
+
+          <view class="tipsRight left">
+            <image class="tipsjing block" src="../../../../image/jing.png"></image>
+            <text class="block teacherName">周杰伦老师推荐</text>
+          </view>
+        </view>
+
+      
+      
+      </view>
+      <view class="savedate left">保存时间：2018-7-9</view>
+      <view class="handel">删除</view>
+      <view class="reviewContent clear">
+        <view class="reviewList clear">
+          <view class="tipsLeft left">
+            <text class="block bookNameTitle">小王子读后感</text>
+            <text class=" tipsName">周杰伦</text>
+            <text class=" tipsLevel">Lv1</text>
+            <view class="tipsStatu clear">
+              <image  src="../../../../image/heart.png" class="heart left"></image>
+              <text class="heartText block left">11</text>
+              <image src="../../../../image/chat.png" class="chat left"></image>
+              <text class="chatText block left">11</text>
+              <image src="../../../../image/star.png" class="star left"></image>
+              <text class="starText block left">11</text>
+            </view>
+          </view>
+
+          <view class="tipsRight left">
+            <image class="tipsjing block" src="../../../../image/jing.png"></image>
+            <text class="block teacherName">周杰伦老师推荐</text>
+          </view>
+        </view>
+
+      
+      
+      </view>
+      <view class="savedate left">保存时间：2018-7-9</view>
+      <view class="handel">删除</view>
+    </view>
+    <view class="clear block list">
+      <text class="bookname">书籍：小王子</text>
+      <view class="reviewContent clear">
+        <view class="reviewList clear">
+          <view class="tipsLeft left">
+            <text class="block bookNameTitle">小王子读后感</text>
+            <text class=" tipsName">周杰伦</text>
+            <text class=" tipsLevel">Lv1</text>
+            <view class="tipsStatu clear">
+              <image  src="../../../../image/heart.png" class="heart left"></image>
+              <text class="heartText block left">11</text>
+              <image src="../../../../image/chat.png" class="chat left"></image>
+              <text class="chatText block left">11</text>
+              <image src="../../../../image/star.png" class="star left"></image>
+              <text class="starText block left">11</text>
+            </view>
+          </view>
+
+          <view class="tipsRight left">
+            <image class="tipsjing block" src="../../../../image/jing.png"></image>
+            <text class="block teacherName">周杰伦老师推荐</text>
+          </view>
+        </view>
+
+      
+      
+      </view>
+      <view class="savedate left">保存时间：2018-7-9</view>
+      <view class="handel">删除</view>
+    </view>
+  </view>
+ 
+
+</view>
+
+
+<template is="tabBar" data="{{tabbar}}"/>

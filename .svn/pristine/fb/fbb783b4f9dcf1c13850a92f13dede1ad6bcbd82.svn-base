@@ -1,0 +1,26 @@
+<!--pages/student/home/writeInsight/writeInsight.wxml-->
+<view class="topline"></view>
+<view class="warp">
+  <input placeholder="请输入标题，最多不超过15个字" class="writeTitle" placeholder-class="inputplaceholder" bindinput="getTitle" value="{{title}}" focus/>
+</view>
+<view class="autoline"></view>
+<view class="warp">
+<textarea placeholder="请输入读书心得，最多不超过800个字" value="{{content}}" bindinput="getContent" placeholder-class="textareaplaceholder" class="writetextarea"></textarea>
+</view>
+
+<view class="blodline"></view>
+<view class="warp clear">
+  <block wx:for="{{picUrl}}" wx:key="{{index}}">
+    <view class="addpicmain left">
+      <image src="{{item.val == '' ? '../../../../image/addpic.png' : item.val}}" class="addpic {{item.showdele ? 'picBorder' : ''}}" data-index="{{index}}" wx:key="index" bindtap="addpic" wx:if="{{item.isshow}}"></image>
+      <image src="../../../../image/delete.png" class="delepic" bindtap="deletePic" data-index="{{index}}" wx:if="{{item.showdele}}"></image>
+          
+    </view>
+    </block>
+  
+</view>
+
+<view class="handel">
+ <image src="../../../../image/save.png" class="save" bindtap="save"></image>
+ <image src="../../../../image/issue.png" class="issue" bindtap="issue"></image>
+</view>

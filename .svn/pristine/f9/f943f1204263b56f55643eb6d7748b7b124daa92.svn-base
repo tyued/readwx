@@ -1,0 +1,50 @@
+<!--pages/student/home/bookReview/bookReview.wxml-->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<view class="topline"></view>
+
+<view class="reviewMain clear">
+  <view class="switch clear">
+    <view class="thisClass left" bindtap="switchThisClass">
+      <text class="classText tc block {{thisClass ? 'active' : ''}}">本班心得</text>
+      <text class="bluebot block" wx:if="{{thisClass}}"></text>
+    </view>
+    <view class="thisClass left"  bindtap="switchThisSchool">
+      <text class="classText tc block {{thisSchool ? 'active' : ''}}">本校心得</text>
+      <text class="bluebot block" wx:if="{{thisSchool}}"></text>
+    </view>
+    <view class="thisClass left"  bindtap="switchThisMy">
+      <text class="classText tc block {{thisMy ? 'active' : ''}}">我的心得</text>
+      <text class="bluebot block" wx:if="{{thisMy}}"></text>
+    </view>
+  </view>
+
+  <view class="warp clear">
+    <view class="reviewContent clear">
+      <view class="reviewList clear">
+        <view class="tipsLeft left">
+          <text class="block bookNameTitle">小王子读后感</text>
+          <text class=" tipsName">周杰伦</text>
+          <text class=" tipsLevel">Lv1</text>
+          <view class="tipsStatu">
+            <icon class="iconfont icon-heart iconBig">11</icon>
+            <icon class="iconfont icon-duihuakuang1 iconBig iconmargin">11</icon>
+            <icon class="iconfont icon-wujiaoxing_kong iconBig iconmargin">11</icon>
+          </view>
+        </view>
+
+        <view class="tipsRight left">
+          <image class="tipsjing block" src="../../../../image/jing.png"></image>
+          <text class="block teacherName">周杰伦老师推荐</text>
+      </view>
+    </view>
+
+
+    <image src="../../../../image/write.png" class="writeImg block" bindtap="renderWrite"></image>
+  </view>
+</view>
+ 
+
+</view>
+
+
+<template is="tabBar" data="{{tabbar}}"/>

@@ -1,0 +1,65 @@
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<view class="switch">
+  <view class="thisClass tc left" bindtap="switchClass">
+    <text class="thisClassText  {{isThisClass ? 'active' : ''}} block">正在阅读</text>
+    <view class="activeline" wx:if="{{isThisClass}}"></view>
+  </view>
+<view class="thisSchool tc left"  bindtap="switchSchool">
+<text class="thisSchoolText  {{isThisSchool ? 'active' : ''}} block">挑战已通过</text>
+<view class="activeline" wx:if="{{isThisSchool}}"></view>
+</view>
+</view>
+<view class="iosFixed warp clear booklist">
+  <view class="handel">
+    <view class="tongji left">已收藏<text class="blue">{{booknum}}</text>本书</view>
+    <view class="right" bindtap="edit">{{!isbottomfade ? '编辑' : '取消'}}</view>
+  </view>
+  <view class="bookitem left">
+    <image src="../../../../image/bookex.png" class="bookimg"></image>
+    <view class="fade" wx:if="{{fade}}"></view>
+    <view class="fadebottom"  wx:if="{{isbottomfade}}">
+      <image src="../../../../image/g.png" wx:if="{{isG && gAll}}" class="gou" bindtap="chooseBook"></image>
+      <image src="../../../../image/gactive.png"wx:if="{{activeG || ischeckAll}}" class="gou" bindtap="chooseBook"></image>
+    </view>
+    <text class="bookname block">小王子</text>
+  </view>
+
+  <view class="bookitem left">
+    <image src="../../../../image/bookex.png" class="bookimg"></image>
+    <view class="fade" wx:if="{{fade}}"></view>
+    <view class="fadebottom"  wx:if="{{isbottomfade}}">
+      <image src="../../../../image/g.png" wx:if="{{isG && gAll}}" class="gou" bindtap="chooseBook"></image>
+      <image src="../../../../image/gactive.png" wx:if="{{activeG || ischeckAll}}" class="gou" bindtap="chooseBook"></image>
+    </view>
+    <text class="bookname block">小王子</text>
+  </view>
+
+  <view class="bookitem left">
+    <image src="../../../../image/bookex.png" class="bookimg"></image>
+    <view class="fade" wx:if="{{fade}}"></view>
+    <view class="fadebottom"  wx:if="{{isbottomfade}}">
+      <image src="../../../../image/g.png" wx:if="{{isG && gAll}}" class="gou" bindtap="chooseBook"></image>
+      <image src="../../../../image/gactive.png" wx:if="{{activeG || ischeckAll}}" class="gou" bindtap="chooseBook"></image>
+    </view>
+    <text class="bookname block">小王子</text>
+  </view>
+
+  <view class="bookitem left">
+    <image src="../../../../image/bookex.png" class="bookimg"></image>
+    <view class="fade" wx:if="{{fade}}"></view>
+    <view class="fadebottom"  wx:if="{{isbottomfade}}">
+      <image src="../../../../image/g.png" wx:if="{{isG && gAll}}" class="gou" bindtap="chooseBook"></image>
+      <image src="../../../../image/gactive.png" wx:if="{{activeG || ischeckAll}}" class="gou" bindtap="chooseBook"></image>
+    </view>
+    <text class="bookname block">小王子小王子小王子小王子小王子</text>
+   </view>
+</view>
+
+<view class="bottomhandel clear" wx:if="{{isbottomfade}}">
+  <view class="checkall left" bindtap="checkAll" wx:if="{{fade}}"></view>
+  <image src="../../../../image/g.png"  bindtap="checkAll" wx:if="{{!fade}}" class="gouicon"></image>
+  <view class="left handeltext"  bindtap="checkAll">全选</view>
+  <view class="dele left" bindtap="deleteAll">删除（7）</view>
+</view>
+
+<template is="tabBar" wx:if="{{!isbottomfade}}" data="{{tabbar}}"/>

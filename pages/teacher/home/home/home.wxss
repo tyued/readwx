@@ -1,0 +1,183 @@
+/* pages/student/home/home/home.wxss */
+@import "/pages/component/tabbar/tabbar.wxss";
+@import "/pages/font/iconfont.wxss";
+.levelIcon{
+  width: 40rpx;
+  height: 45rpx;
+  position: absolute;
+}
+.userInfo{
+  width: 90%;
+  margin:0 auto;
+  position: relative;
+  height: 160rpx;
+}
+.pic{
+  width: 92rpx;
+  height: 92rpx;
+  border-radius: 100%;
+  margin-left:42rpx;
+  margin-top:40rpx;
+}
+
+
+.infolevel{
+  margin-left:60rpx;
+  height: 160rpx;
+  position: relative;
+  width: 460rpx;
+  float: left;
+}
+.name{
+  font-size: 35rpx;
+  font-weight: 600;
+  line-height: 160rpx;
+}
+.mynews{
+  width:60rpx;
+  height: 45rpx;
+  position: absolute;
+  right:0rpx;
+  top:60rpx;
+}
+.message{
+  width:50rpx;
+  height: 40rpx;
+}
+.circleRed{
+  width:10rpx;
+  height: 10rpx;
+  border-radius: 50rpx;
+  background-color: #f90808;
+  position: absolute;
+  top:-3rpx;
+  right:6rpx;
+}
+
+.menu{
+  width: 100%;
+  height: 100rpx;
+  background-color: #f7f7f7;
+  text-align: center;
+  line-height: 100rpx;
+  position: relative;
+}
+
+.chaLine{
+  z-index: 99;
+  padding-top:80rpx;/*bottom值为footer的高*/
+  box-sizing:border-box;/*这里改变盒子模型为怪异盒模型，这样padding值不会增加main的高度*/
+  overflow-y:scroll;
+}
+.grade{
+  width:390rpx;
+  height: 100rpx;
+  margin:0 auto;
+}
+
+.gradeText{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+
+.iconxia{
+  font-size: 25rpx;
+  line-height: 100rpx;
+  margin-left:5rpx;
+  margin-top:5rpx;
+}
+.panel{
+  width: 100%;
+  min-height: 200rpx;
+  box-shadow: 0rpx 13rpx 0rpx #d4e2f1;
+  margin:0 auto;
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+  background-color: #fff;
+  top:250rpx;
+  box-sizing:border-box;
+  padding:30rpx 0rpx 30rpx 0rpx;
+  position: absolute;
+  z-index:99;
+}
+.gradeTerm{
+  border-radius: 30rpx;
+  width: 186rpx;
+  height: 60rpx;
+  margin:0rpx 28rpx 0rpx 34rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.activeButton{
+  background-color: #5297f7;
+  color:#fff;
+  border-style:none;
+  margin-bottom: 60rpx;
+}
+
+.normalButton{
+  color: #5297f7;
+  background-color:#eff6ff;
+  margin-bottom: 60rpx;
+}
+
+.finish{
+  width: 300rpx;
+  height: 90rpx;
+  margin: 0 auto 34rpx auto;
+}
+.panellist{
+  overflow: hidden;
+  width: 100%;
+}
+.typeList{
+  width: 180rpx;
+  margin-right:30rpx;
+  margin-left:20rpx;
+}
+
+.bookitem{
+  width: 200rpx;
+  height: 370rpx;
+  margin:40rpx 25rpx 0rpx 25rpx; 
+  float:left;
+}
+
+.bookimg{
+  width: 200rpx;
+  height: 260rpx;
+  display: block;
+}
+
+.progress{
+  width: 200rpx;
+  height: 30rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+  margin-top:24rpx;
+  position: relative;
+}
+
+.passnum{
+  color:#fff;
+  position: absolute;
+  font-size: 20rpx;
+  top:0;
+  left:30rpx;
+}
+
+.bookreadnum{
+  font-size: 26rpx;
+  width: 200rpx;
+  text-align: center;
+  margin-top:20rpx;
+}
+
+.yellowText{
+  color:#ffd00b;
+  font-size: 20rpx;
+}

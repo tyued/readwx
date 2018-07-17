@@ -1,0 +1,41 @@
+/* pages/component/tabbar/tabbar.wxss */
+.tabbar_box{
+    display: -webkit-box;  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;     /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;  /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex;         /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 120rpx;
+    border-top: 1rpx solid gray; 
+}
+
+.tabbar_nav{
+    display: -webkit-box;  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;     /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;  /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex;         /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 28rpx;
+    height: 100%;
+}
+
+.tabbar_icon{
+    width: 61rpx;
+    height: 61rpx;
+}
+

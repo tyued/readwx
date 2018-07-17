@@ -1,0 +1,184 @@
+/* pages/student/home/bookDetail/bookDetail.wxss */
+@import "/pages/component/tabbar/tabbar.wxss";
+@import "/pages/font/iconfont.wxss";
+.bookInfo{
+  height: 320rpx;
+}
+.warpdaodu{
+  overflow: hidden;
+}
+.bookimg{
+  width: 200rpx;
+  height: 260rpx;
+}
+.bookInfoDetail{
+  margin-left:25rpx;
+}
+
+.bookName{
+  font-size: 35rpx;
+  font-weight: 600;
+  padding:5rpx 0rpx;
+}
+
+.bookAuthor,.bookSort{
+  color:#666;
+  padding:5rpx 0rpx;
+}
+
+.addBook{
+  width: 210rpx;
+  height: 80rpx;
+  margin-top:30rpx;
+}
+.go{
+  width: 210rpx;
+  height: 80rpx;
+  margin-left: 20rpx;
+  margin-top:30rpx;
+}
+.daodu{
+  font-size: 35rpx;
+  font-weight: 600;
+}
+
+.textHandel{
+  width: 100rpx;
+  height: 50rpx;
+  margin-top:20rpx;
+  float: right;
+  margin-bottom:40rpx;
+}
+
+.textOpen{
+  color:#5297f7;
+}
+
+.openimg{
+  width: 25rpx;
+  height: 15rpx;
+  margin-left:10rpx;
+}
+
+.bookContent{
+  width: 100%;
+  color:#666;
+}
+
+.texthidden{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: 30%;
+}
+
+.bookTime{
+  height: 50rpx;
+}
+
+.title{
+  color:#999899;
+  width: 200rpx;
+}
+.bookjianjie{
+  color:#666;
+}
+.highline{
+  width: 100%;
+  height: 20rpx;
+  background-color: #f3f9fc;
+  margin-top:30rpx;
+  margin-bottom:45rpx;
+}
+
+.tipsHandel{
+  width: 100rpx;
+  height: 50rpx;
+  float: right;
+}
+.moreimg{
+  width: 15rpx;
+  height: 20rpx;
+  margin-left:10rpx;
+}
+.tipsTitle{
+  margin-top:10rpx;
+  font-size: 35rpx;
+  font-weight: 600;
+}
+
+.tipsLeft{
+  width: 60%;
+}
+.tipsRight{
+  width: 40%;
+}
+
+.readFeel{
+  margin-bottom:130rpx;
+  overflow: hidden;
+}
+.tipsStatu{
+  margin-top:20rpx;
+}
+.heart,.chat{
+  width: 35rpx;
+  height: 30rpx;
+}
+.chat{
+  margin-left:45rpx;
+}
+.star{
+  width: 30rpx;
+  height: 30rpx;
+  margin-left:45rpx;
+}
+.heartText,.chatText,.starText{
+  color:#999;
+  margin-top:-5rpx;
+  margin-left:12rpx;
+}
+
+.feelTitle{
+  margin-bottom:60rpx;
+}
+.bookNameTitle{
+  font-size: 40rpx;
+  padding: 0;
+}
+.tipsName{
+  color:#666;
+}
+.tipsLevel{
+  color:#666;
+  background-color: #f3eff5;
+  text-align: center;
+  padding:5rpx 40rpx;
+  margin-left:10rpx;
+  font-size: 25rpx;
+  border-radius: 20rpx;
+}
+
+.tipsjing{
+  width: 90rpx;
+  height: 70rpx;
+  margin-left:63%;
+}
+.teacherName{
+  color:#666;
+  margin-top:40rpx;
+  text-align: right;
+}
+
+.BookdetailList{
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+
+.listline{
+  margin:35rpx auto !important;
+  width: 100%;
+}

@@ -1,0 +1,104 @@
+<!--pages/student/home/bookDetail/bookDetail.wxml-->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<view class="topline"></view>
+<view class="warp">
+  <view class="bookInfo clear">
+     <image src="{{bookDetail.Image}}" class="bookimg left"></image>
+     <view class="left bookInfoDetail">
+       <text class="block bookName">{{bookDetail.BookName}}</text>
+       <text class="block bookAuthor">{{bookDetail.Author}}</text>
+       <text class="block bookSort">{{bookType[bookDetail.BookType - 1].val}}</text>
+       <image src="../../../../image/addBook.png" class="addBook left"></image>
+       <image src="../../../../image/go.png" class="go left"></image>
+     </view>
+  </view>
+</view>
+<view class="topline"></view>
+
+<view class="warp clear warpdaodu">
+  <view class='clear'>
+   <text class="daodu block">导读</text>
+   <text class="block bookContent {{isOpen ? 'texthidden' :''}} clear">
+     {{bookDetail.Review == null ? '无' : bookDetail.Review}}
+   </text>
+   <view class="textHandel">
+     <text class="textOpen" bindtap="openText">{{handelvalue}}</text>
+     <image src="../../../../image/{{isOpen ? 'botblue.png' :'topblue.png'}}" class="openimg"></image>
+   </view>
+  </view>
+</view>
+
+<view class="topline "></view>
+
+<view class="warp clear">
+  <view class="bookTime clear">
+   <text class="title left block">适用年级：</text>
+   <text class="bookjianjie  left block">{{classType[bookDetail.Grade -1].val}} 年级{{bookDetail.Grade == 1 ? '上学期':'下学期'}}</text>
+  </view>
+  <view class="bookTime clear">
+   <text class="title  left block">出版社：</text>
+   <text class="bookjianjie  left block">{{bookDetail.Press}}</text>
+  </view>
+  <view class="bookTime clear">
+   <text class="title  left block">出版时间：</text>
+   <text class="bookjianjie  left block">{{bookDetail.Year}}</text>
+  </view>
+</view>
+
+<view class="highline"></view>
+
+<view class="warp main clear">
+  <view class="clear feelTitle">
+    <text class="tipsTitle">读书心得</text>
+    <view class="tipsHandel">
+      <text class="textOpen" bindtap="renderReadMore" data-bookid="{{bookDetail.ID}}" data-class="{{bookDetail.Class}}">更多</text>
+      <image src="../../../../image/rightblue.png" class="moreimg"></image>
+    </view>
+  </view>
+  
+<view bindtap="renderBookdetail" class="clear BookdetailList">
+  <view class="tipsLeft left">
+    <text class="block bookNameTitle">小王子读后感</text>
+    <text class=" tipsName">周杰伦</text>
+    <text class=" tipsLevel">Lv1</text>
+    <view class="tipsStatu clear">
+      <image  src="../../../../image/heart.png" class="heart left"></image>
+      <text class="heartText block left">11</text>
+      <image src="../../../../image/chat.png" class="chat left"></image>
+      <text class="chatText block left">11</text>
+      <image src="../../../../image/star.png" class="star left"></image>
+      <text class="starText block left">11</text>
+    </view>
+  </view>
+
+  <view class="tipsRight left">
+    <image class="tipsjing block" src="../../../../image/jing.png"></image>
+    <text class="block teacherName">周杰伦老师推荐</text>
+  </view>
+</view>
+<view class="autoline listline clear"></view>
+
+<view bindtap="renderBookdetail"  class="clear BookdetailList">
+  <view class="tipsLeft left">
+    <text class="block bookNameTitle">小王子读后感</text>
+    <text class=" tipsName">周杰伦</text>
+    <text class=" tipsLevel">Lv1</text>
+    <view class="tipsStatu clear">
+      <image  src="../../../../image/heart.png" class="heart left"></image>
+      <text class="heartText block left">11</text>
+      <image src="../../../../image/chat.png" class="chat left"></image>
+      <text class="chatText block left">11</text>
+      <image src="../../../../image/star.png" class="star left"></image>
+      <text class="starText block left">11</text>
+    </view>
+  </view>
+
+  <view class="tipsRight left">
+    <image class="tipsjing block" src="../../../../image/jing.png"></image>
+    <text class="block teacherName">周杰伦老师推荐</text>
+  </view>
+</view>
+<view class="autoline listline clear"></view>
+</view>
+
+<template is="tabBar" data="{{tabbar}}"/>

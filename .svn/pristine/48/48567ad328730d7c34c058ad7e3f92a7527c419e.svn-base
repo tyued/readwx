@@ -1,0 +1,5 @@
+<!--pages/student/mycenter/myhome/myhome.wxml-->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<text>pages/student/mycenter/myhome/myhome.wxml</text>
+
+<template is="tabBar" data="{{tabbar}}"/>

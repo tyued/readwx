@@ -1,0 +1,21 @@
+<!--pages/student/mycenter/readresult/readresult.wxml-->
+<image src="../../../../image/baogaobg.png" class="baogao"></image>
+<text class="name">周杰伦</text>
+<image src="../../../../image/ex.png" class="partimg"></image>
+<image class="partAimg" src="../../../../image/ex.png"></image>
+<text class="partA">2018-4-18开始了愉快的课外阅读之旅</text>
+
+<image class="partBimg" src="../../../../image/ex.png"></image>
+<text class="partB">2018-4-18开始了愉快的课外阅读之旅</text>
+
+<image class="partCimg" src="../../../../image/ex.png"></image>
+<text class="partC">2018-4-18开始了愉快的课外阅读之旅</text>
+
+<image class="partDimg" src="../../../../image/ex.png"></image>
+<text class="partD">2018-4-18开始了愉快的课外阅读之旅</text>
+
+<image class="partEimg" src="../../../../image/ex.png"></image>
+<text class="partE">2018-4-18开始了愉快的课外阅读之旅</text>
+
+<image class="partFimg" src="../../../../image/ex.png"></image>
+<text class="partF">2018-4-18开始了愉快的课外阅读之旅</text>

@@ -1,0 +1,138 @@
+/* pages/student/home/home/home.wxss */
+@import "/pages/component/tabbar/tabbar.wxss";
+.levelIcon{
+  width: 40rpx;
+  height: 45rpx;
+  position: absolute;
+  top:10rpx;
+}
+.userInfo{
+  width: 90%;
+  margin:0 auto;
+  position: relative;
+  height: 160rpx;
+}
+.pic{
+  width: 92rpx;
+  height: 92rpx;
+  border-radius: 100%;
+  margin-left:42rpx;
+  margin-top:40rpx;
+}
+.italic{
+  font-style: italic;
+}
+.level{
+  color:#c440e1;
+  font-size: 20rpx;
+  background-color: #f3eff6;
+  width: 230rpx;
+  height: 38rpx;
+  line-height: 40rpx;
+  text-align: center;
+  border-radius: 50rpx;
+  margin-top:20rpx;
+}
+.infolevel{
+  margin-top:20rpx;
+  margin-left:60rpx;
+ 
+}
+.name{
+  font-size: 35rpx;
+  font-weight: 600;
+}
+.mynews{
+  width:60rpx;
+  height: 45rpx;
+  position: relative;
+  margin-left: 420rpx;
+  margin-top:-75rpx;
+}
+.message{
+  width:50rpx;
+  height: 40rpx;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+.circleRed{
+  width:10rpx;
+  height: 10rpx;
+  border-radius: 50rpx;
+  background-color: #f90808;
+  position: absolute;
+  top:-3rpx;
+  right:6rpx;
+}
+.line{
+  width: 90%;
+  height: 1rpx;
+  background-color: #eee;
+  margin:0 auto;
+}
+.booktext{
+  width:90%;
+  margin:40rpx auto 15rpx auto;
+  display: block;
+  height: 60rpx;
+}
+.yellow,.blue{
+  width:10rpx;
+  height: 30rpx;
+  margin-top:10rpx;
+}
+.booktitle{
+  line-height: 50rpx;
+  height: 70rpx;
+  margin-left:20rpx;
+}
+.booklist{
+  width: 90%;
+  display: block;
+  height: 600rpx;
+  margin:0 auto;
+}
+.bookimg{
+  width: 200rpx;
+  height: 260rpx;
+  margin-bottom:30rpx;
+}
+.middle{
+  margin-left:35rpx;
+  margin-right:35rpx;
+}
+.dynamicList{
+  width: 90%;
+  height: 150rpx;
+  margin:0 auto;
+}
+.dynamicHead{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100%;
+}
+
+.dynamicInfo{
+  margin-left:30rpx;
+}
+.textBook{
+  font-size: 25rpx;
+  line-height: 40rpx;
+}
+.textTime{
+  font-size: 25rpx;
+  color:#999;
+  line-height: 40rpx;
+}
+.autoline{
+  margin-bottom:40rpx;
+  display: block;
+}
+.textName{
+  line-height: 40rpx;
+}
+
+.otherline{
+  color:#f0f0f0;
+}

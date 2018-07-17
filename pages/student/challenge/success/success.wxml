@@ -1,0 +1,19 @@
+<!--pages/student/challenge/success/success.wxml-->
+<view class="wrapper">
+  <view class="contentBg">
+    <view class="background"> 
+     <image  class="avatar block" src="../../../../image/ex.png"></image> 
+    </view> 
+    <view class="container-main">
+      <text class="block bookname">格林童话</text>
+      <view class="action clear">
+        <text class="left block textleft">成绩：</text><text class="left block textright">99分</text>
+      </view>
+      <view class="successTips">阅读小能手，快去参加更多挑战吧~</view>
+      <image src="../../../../image/morechall.png" class="morechallenge"></image>
+    </view> 
+ 
+
+  
+  </view>
+</view>

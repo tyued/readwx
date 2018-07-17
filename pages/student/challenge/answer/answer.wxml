@@ -1,0 +1,133 @@
+<!--pages/student/challenge/answer/answer.wxml-->
+
+<view class="answerBg">
+<view class="answerMain main clear">
+  <!-- <swiper class="clear swiperContent" circular="{{false}}"> -->
+    <!-- <swiper-item> -->
+    <view bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" data-index="0" style="display:block" class="list">
+      <view  class="block questtop clear">
+        <image src="../../../../image/clock.png" class="clock left"></image>
+        <view class="left time">19: 22</view>
+        <view class="left jindu">答题进度：<text class="currentQues">1</text>/4</view>
+        <view class="left card" bindtap="renderdatika">答题卡</view>
+      </view>
+      <view class="questions block" scroll-y="{{true}}">
+        <text class="block title">选择题</text>
+        <view class="questionlist clear ">
+          <image src="../../../../image/wen.png" class="block left wen"></image>
+          <view class="questionitem left block">《小王子》的作者是谁cnidhc 菜鸟农村的承诺基地能刺激的水泥厂</view>
+        </view>
+        <image class="tiImg" src="../../../../image/ex.png"></image>
+        <view class="options block">
+          <text> A　　法国</text>
+        </view>
+       
+        <image class="tiImg" src="../../../../image/ex.png"></image>
+        <view class="options block activeOptions">
+          <text> A　　法国</text>
+          <image src="../../../../image/smallgou.png" class="gou"></image>
+        </view>
+        <image class="tiImg" src="../../../../image/ex.png"></image>
+        <view class="options block">
+          <text> A　　法国</text>
+        </view>
+        
+        <image class="tiImg" src="../../../../image/ex.png"></image>
+        <view class="options block">
+          <text> A　　法国</text>
+        </view>
+      </view>  
+    </view>
+      
+     
+    <!-- </swiper-item>
+    <swiper-item> -->
+    <view bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" data-index="1" class="list" >
+      <view  class="block questtop clear">
+        <image src="../../../../image/clock.png" class="clock left"></image>
+        <view class="left time">19: 22</view>
+        <view class="left jindu">答题进度：<text class="currentQues">2</text>/4</view>
+        <view class="left card" bindtap='datika'>答题卡</view>
+      </view>
+      <view class="questions block" scroll-y="{{true}}">
+        <text class="block title">填空题</text>
+        <view class="questionlist clear ">
+          <image src="../../../../image/wen.png" class="block left wen"></image>
+          <view class="questionitem left block">《小王子》的作者是谁cnidhc 菜鸟农村的承诺基地能刺激的水泥厂</view>
+        </view>
+        <textarea class="writeanswer" disabled='true'> 
+        
+        </textarea>
+       
+        
+        <view><text class="tips">*</text><text class="tipsText">若有多个空请按顺序连续输入答案，不要间隔，最多输入100字</text></view>
+      </view> 
+    </view>
+    <!-- </swiper-item>
+    <swiper-item> -->
+    <view bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" data-index="2" class="list">
+      <view  class="block questtop clear">
+        <image src="../../../../image/clock.png" class="clock left"></image>
+        <view class="left time">19: 22</view>
+        <view class="left jindu">答题进度：<text class="currentQues">3</text>/4</view>
+        <view class="left card">答题卡</view>
+      </view>
+      <view class="questions block" scroll-y="{{true}}">
+        <text class="block title">判断题</text>
+        <view class="questionlist clear ">
+          <image src="../../../../image/wen.png" class="block left wen"></image>
+          <view class="questionitem left block">《小王子》的作者是谁cnidhc 菜鸟农村的承诺基地能刺激的水泥厂</view>
+        </view>
+        
+        <view class="options block">
+          <text> 是</text>
+        </view>
+       
+        
+        <view class="options block activeOptions">
+          <text>否</text>
+          <image src="../../../../image/smallgou.png" class="gou"></image>
+        </view>
+       
+      </view>
+    </view>
+    <!-- </swiper-item>
+    <swiper-item> -->
+    <view bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" data-index="3" class="list">
+      <view  class="block questtop clear">
+        <image src="../../../../image/clock.png" class="clock left"></image>
+        <view class="left time">19: 22</view>
+        <view class="left jindu">答题进度：<text class="currentQues">4</text>/4</view>
+        <view class="left card">答题卡</view>
+      </view>
+      <view class="questions block" scroll-y="{{true}}">
+        <text class="block title">选择题</text>
+        <view class="questionlist clear ">
+          <view class="questionitem left block">《小王子》的作者是谁cnidhc 菜鸟农村的承诺基地能刺激的水泥厂</view>
+        </view>
+        <view class="options block">
+          <text> A　　法国</text>
+        </view>
+        <view class="options block activeOptions">
+          <text> A　　法国</text>
+        </view>
+        <view class="options block">
+          <text> A　　法国</text>
+        </view>
+        <view class="options block">
+          <text> A　　法国</text>
+        </view>
+      </view>  
+    </view>
+    <!-- </swiper-item>
+  </swiper> -->
+   <view class="footer clear">
+    <view class="footLeft left">
+      　往右滑动到下一题
+    </view>
+    <view  class="footRight left">
+      　 提交
+    </view>
+  </view>   
+</view>
+</view>

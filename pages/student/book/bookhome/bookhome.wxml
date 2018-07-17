@@ -1,0 +1,67 @@
+<!--pages/student/book/bookhome/bookhome.wxml-->
+<!-- <import src="/pages/component/tabbar/tabbar.wxml"/>
+<text>pages/student/book/bookhome/bookhome.wxml</text>
+
+<template is="tabBar" data="{{tabbar}}"/> -->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<view class="topline"></view>
+<view class="menu clear">
+  <view class="grade left" bindtap="chooseGrade">
+    <view class="gardeDetail">
+      <text class="gradeText left">全年级</text>
+      <icon class="iconfont icon-jiantou1 left iconxia {{isshowGrade ? 'active' : ''}}"></icon>
+    </view>
+  </view>
+  <view class="type left" bindtap="chooseType">
+    <view class="typeDetail">
+        <text class="typeText block left">全部类型</text>
+        <icon class="iconfont icon-jiantou1 left iconxia {{isshowType ? 'active' : ''}}"></icon>
+    </view>
+  </view>
+</view>
+
+<view class="panel clear" wx:if="{{isshowGrade}}">
+  <view class="clear block panellist" wx:if="{{isGrade}}">
+    <text class="block gradeTitle clear">学期</text>
+    <view class="gradeTerm left {{lastSemester ? 'activeButton' : 'normalButton'}}" bindtap="selectSemesterTop">上学期</view>
+    <view class="gradeTerm left {{nextTerm ? 'activeButton' : 'normalButton'}}" bindtap="selectSemesterNext">下学期</view>
+  </view>
+  <view class="clear block panellist">
+    <text class="block gradeTitle clear">年级</text>
+    <view class="gradeTerm left normalButton typeList {{allClass == true ? 'activeButton' : ''}}" data-classid="0" bindtap="selectSemester">全年级</view>
+    <view class="gradeTerm left normalButton {{item.check == true ? 'activeButton' : ''}}" bindtap="selectSemester" wx:for="{{classType}}" wx:key="{{item.key}}" data-classid="{{item.key}}">{{item.val}}年级</view>
+  </view>
+   <image src="../../../../image/finish.png" class="finish block" bindtap="finish"></image>
+</view>
+
+<view class="panel clear panellist" wx:if="{{isshowType}}">
+  <view class="gradeTerm left normalButton typeList {{allType ? 'activeButton' : ''}}" data-type="0" bindtap="selectType">全部类型</view>
+  <view class="gradeTerm left normalButton typeList {{item.check == true ? 'activeButton' : ''}}" wx:for="{{bookType}}" wx:key="{{item.key}}" data-type="{{item.key}}" bindtap="selectType">{{item.val}}</view>
+</view>
+<view class="blodline"></view>
+<view class="warp bookmain main clear" wx:if="{{!empty}}">
+  <block wx:for="{{bookList}}" wx:key="item.ID">
+    <view class="booklist clear">
+      <image src="{{item.Image}}" class="left bookimg"></image>
+      <image src="{{item.Type == '1' ? '../../../../image/bidu.png' : '../../../../image/xuandu.png'}}" class="readtype"></image>
+      <view class="left bookinfo clear">
+        <text class="block bookname">{{item.BookName}}</text>
+        <text class="block bookautho">{{item.Author}}</text>
+        <text class="block bookautho">{{classType[item.Class-1].val}}{{item.Grade == '1' ? '上学期' : '下学期'}}</text>
+        <text class="block bookautho">{{bookType[item.Type-1]}}</text>
+        <view class="readnum clear">
+          <icon class="iconfont icon-ren111 left numicon"></icon>
+          <text class="num block">{{item.BookSource}}人在阅读</text>
+        </view>
+      </view>
+    </view>
+    <view class="autoline clear"></view>
+    
+  </block>
+</view>
+
+<view wx:if="{{empty}}">
+  <image src="../../../../image/empty.png" class="empty"></image>
+  <view class="emptyText">没有合适的书籍，换个类型试试吧~</view>
+</view>
+<template is="tabBar" data="{{tabbar}}"/>

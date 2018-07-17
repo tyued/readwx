@@ -1,0 +1,58 @@
+/* pages/student/home/news/news.wxss */
+@import "/pages/component/tabbar/tabbar.wxss";
+.topline{
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 99;
+}
+
+.dynamicList{
+  width: 90%;
+  height: 110rpx;
+  margin:30rpx auto;
+  position: relative;
+}
+.dynamicHead{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+  
+}
+.textName{
+  color:#000;
+  font-weight: 500;
+  font-size: 35rpx;
+}
+.otherColor{
+  color:#000;
+}
+.dynamicInfo{
+  margin-left:20rpx;
+}
+.textBook{
+  font-size:35rpx;
+  line-height: 40rpx;
+  overflow: hidden; 
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+  width: 550rpx;
+  color:#999;
+}
+.autoline{
+  margin:0 auto;
+}
+.viewTime{
+  color:#999;
+  font-size: 26rpx;
+  margin-left:300rpx; 
+}
+.redCircle{
+  width: 13rpx;
+  height: 13rpx;
+  background-color: #f90808;
+  border-radius: 200rpx;
+  position: absolute;
+  top:0;
+  left:90rpx;
+}

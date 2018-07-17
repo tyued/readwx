@@ -1,0 +1,208 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.1.1",
+	"appid": "wx7103a47642172598",
+	"projectname": "readwx",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 27,
+			"list": [
+				{
+					"id": -1,
+					"name": "学生  主页",
+					"pathName": "pages/student/home/home/home",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生  新建心得",
+					"pathName": "pages/student/home/writeInsight/writeInsight",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生  挑战答题",
+					"pathName": "pages/student/challenge/answer/answer",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生  书库",
+					"pathName": "pages/student/book/bookhome/bookhome",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生  答题卡",
+					"pathName": "pages/student/challenge/datika/datika",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生  挑战成功",
+					"pathName": "pages/student/challenge/success/success",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生  挑战失败",
+					"pathName": "pages/student/challenge/failure/failure",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生  我的主页",
+					"pathName": "pages/student/mycenter/myhome/myhome",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生  我的主页 我的信息",
+					"pathName": "pages/student/mycenter/info/info",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生 我的 挑战证书",
+					"pathName": "pages/student/mycenter/mychallenge/mychallenge",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生挑战",
+					"pathName": "pages/student/challenge/challengehome/challengehome",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生  阅读成果报告",
+					"pathName": "pages/student/mycenter/readresult/readresult",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生  我的书架",
+					"pathName": "pages/student/mycenter/bookrack/bookrack",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生  风云榜",
+					"pathName": "pages/student/home/billBoard/billBoard",
+					"query": ""
+				},
+				{
+					"id": 14,
+					"name": "学生 我的 我的心得",
+					"pathName": "pages/student/mycenter/detailWrite/detailWrite",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生 我的 新建心得",
+					"pathName": "pages/student/home/writeInsight/writeInsight",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生 登录",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生  首页 心得详情",
+					"pathName": "pages/student/home/tipsDetail/tipsDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "老师  首页",
+					"pathName": "pages/teacher/home/home/home",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生  晋级规则",
+					"pathName": "pages/student/home/promotionRules/promotionRules",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "老师  阅读进展",
+					"pathName": "pages/teacher/home/readProgess/readProgess",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "老师 挑战情况",
+					"pathName": "pages/teacher/home/challengeDetail/challengeDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "老师  读书心得",
+					"pathName": "pages/teacher/home/readXinde/readXinde",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "老师  风云榜",
+					"pathName": "pages/teacher/home/billBoard/billBoard",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "老师  我的",
+					"pathName": "pages/teacher/mycenter/mycenter/mycenter",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生   书籍详情",
+					"pathName": "pages/student/home/bookDetail/bookDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "选择账号",
+					"pathName": "pages/selectAccount/selectAccount",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "学生  主页  读书心得",
+					"pathName": "pages/student/home/bookReview/bookReview"
+				}
+			]
+		}
+	}
+}

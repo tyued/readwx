@@ -1,0 +1,17 @@
+<!--pages/selectAccount/selectAccount.wxml-->
+<text class="title">公众号演示学校</text>
+<view class="topline line"></view>
+<view class="infoList clear">
+  <image class="portrait left" src="../../image/ex.png" mode="widthFix"></image>
+  <text class="name left">周杰伦</text>
+  <view class="lever left" bindtap="studentHome">学生</view>
+  <image class="active left" src="../../image/gou.png" mode="aspectFit"></image>
+</view>
+<view class="botLine"></view>
+<view class="infoList clear">
+  <image class="portrait left" src="../../image/ex.png" mode="widthFix"></image>
+  <text class="name left">周杰伦</text>
+  <view class="lever left">教师</view>
+  <image class="active left" src="../../image/gou.png" mode="aspectFit"></image>
+</view>
+<view class="botLine"></view>

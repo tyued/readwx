@@ -1,0 +1,62 @@
+<!--pages/student/mycenter/mychallenge/mychallenge.wxml-->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+
+<view class="topline"></view>
+<view class="menu clear">
+  <view class="grade" bindtap="chooseGrade">
+    <text class="gradeText left">二年级上学期-未通过</text>
+    <icon class="iconfont icon-jiantou1 left iconxia {{isshowGrade ? 'active' : ''}}"></icon>
+  </view>
+</view>
+<view class="panel clear" wx:if="{{isshowGrade}}">
+   <view class="clear block panellist">
+    <text class="block gradeTitle clear">学期</text>
+    <view class="gradeTerm left {{lastSemester ? 'activeButton' : 'normalButton'}}" bindtap="selectSemesterTop">上学期</view>
+    <view class="gradeTerm left {{nextTerm ? 'activeButton' : 'normalButton'}}" bindtap="selectSemesterNext">下学期</view>
+   </view>
+   <view class="clear block panellist">
+    <text class="block gradeTitle clear">年级</text>
+    <view class="gradeTerm left normalButton" bindtap="selectSemester">一年级</view>
+    <view class="gradeTerm left normalButton" bindtap="selectSemester">二年级</view>
+    <view class="gradeTerm left normalButton" bindtap="selectSemester">一年级</view>
+    <view class="gradeTerm left normalButton" bindtap="selectSemester">二年级</view>
+    <view class="gradeTerm left normalButton" bindtap="selectSemester">二年级</view>
+   </view>
+   <image src="../../../../image/finish.png" class="finish block"></image>
+</view>
+<view class="chaLine"></view>
+
+<view class="main">
+  <view class="certificateList">
+  <image src="../../../../image/certificate.png" class="certificate"></image>
+  <view class="infotext">
+    <text class="studentname">周杰伦</text>
+    <text class="studentgrade">99</text>
+    <text class="date">2017年 7 月 9 日</text>
+  </view>
+  <view class="bookname">小王子</view>
+</view>
+
+<view class="certificateList">
+  <image src="../../../../image/certificate.png" class="certificate"></image>
+  <view class="infotext">
+    <text class="studentname">周杰伦</text>
+    <text class="studentgrade">99</text>
+    <text class="date">2017年 7 月 9 日</text>
+  </view>
+  <view class="bookname">小王子</view>
+</view>
+
+
+<view class="certificateList">
+  <image src="../../../../image/certificate.png" class="certificate"></image>
+  <view class="infotext">
+    <text class="studentname">周杰伦</text>
+    <text class="studentgrade">99</text>
+    <text class="date">2017年 7 月 9 日</text>
+  </view>
+  <view class="bookname">小王子</view>
+</view>
+</view>
+
+<template is="tabBar" data="{{tabbar}}"/>

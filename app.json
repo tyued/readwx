@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/selectAccount/selectAccount",
+    "pages/student/home/home/home",
+    "pages/student/book/bookhome/bookhome",
+    "pages/student/challenge/challengehome/challengehome",
+    "pages/student/mycenter/myhome/myhome",
+    "pages/student/home/news/news",
+    "pages/student/home/tipsDetail/tipsDetail",
+    "pages/component/tabbar/tabbar",
+    "pages/student/home/promotionRules/promotionRules",
+    "pages/student/home/billBoard/billBoard",
+    "pages/student/home/bookDetail/bookDetail",
+    "pages/student/home/bookReview/bookReview",
+    "pages/student/home/writeInsight/writeInsight",
+    "pages/student/challenge/answer/answer",
+    "pages/student/challenge/datika/datika",
+    "pages/student/challenge/success/success",
+    "pages/student/challenge/failure/failure",
+    "pages/student/mycenter/info/info",
+    "pages/student/mycenter/mychallenge/mychallenge",
+    "pages/student/mycenter/readresult/readresult",
+    "pages/student/mycenter/bookrack/bookrack",
+    "pages/student/mycenter/detailWrite/detailWrite",
+    "pages/teacher/home/home/home",
+    "pages/teacher/mycenter/mycenter/mycenter",
+    "pages/teacher/home/readProgess/readProgess",
+    "pages/teacher/home/challengeDetail/challengeDetail",
+    "pages/teacher/home/readXinde/readXinde",
+    "pages/teacher/home/bookDetail/bookDetail",
+    "pages/teacher/home/billBoard/billBoard"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "debug": true
+}

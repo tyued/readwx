@@ -1,0 +1,17 @@
+<!--pages/student/challenge/success/success.wxml-->
+<view class="wrapper">
+  <view class="contentBg">
+    <view class="background"> 
+     <image  class="avatar block" src="../../../../image/ex.png"></image> 
+    </view> 
+    <view class="container-main">
+      <text class="block bookname">格林童话</text>
+      <view class="action clear">
+        <text class="left block textleft">成绩：</text><text class="left block textright">99分</text>
+      </view>
+      <view class="successTips">别气馁，80分就能通过挑战哦~</view>
+      <image src="../../../../image/gengduo.png" class="gengduo"></image>
+      <image src="../../../../image/zaici.png" class="zaici"></image>
+    </view>
+  </view>
+</view>

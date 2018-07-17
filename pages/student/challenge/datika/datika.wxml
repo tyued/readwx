@@ -1,0 +1,54 @@
+<!--pages/student/challenge/datika/datika.wxml-->
+<view class="content">
+  <view class="main-warp clear">
+    <view class="bookTitle">小王子</view>
+    <view class="blueline"></view>
+    <view class="blockList">
+      <view class="list left">
+        <image src="../../../../image/submited.png" class="submited"></image>
+        <text class="submitText">1</text>
+      </view>
+    
+      <view class="list left">
+        <image src="../../../../image/submited.png" class="submited"></image>
+        <text class="submitText">2</text>
+      </view>
+    
+      <view class="list left">
+        <image src="../../../../image/submited.png" class="submited"></image>
+        <text class="submitText">3</text>
+      </view>
+      
+       <view class="list left">
+        <image src="../../../../image/nosubmit.png" class="submited"></image>
+        <text class="submitText  nosubText">4</text>
+      </view>
+      
+      <view class="list left">
+        <image src="../../../../image/submited.png" class="submited"></image>
+        <text class="submitText">5</text>
+      </view>
+      
+       <view class="list left">
+        <image src="../../../../image/nosubmit.png" class="submited"></image>
+        <text class="submitText nosubText">6</text>
+      </view>
+
+      <view class="list left">
+        <image src="../../../../image/nosubmit.png" class="submited"></image>
+        <text class="submitText nosubText">37</text>
+      </view>
+    </view>
+
+    <view class="handel clear">
+      <view class="handellist left">
+        <image src="../../../../image/bluebg.png" class="handelblue"></image>
+        <text class="handelbluetext">提交</text>
+      </view>
+      <view class="handellist left listcancle">
+        <image src="../../../../image/yellowbg.png" class="handelyellow"></image>
+        <text class="handelbluetext">取消</text>
+      </view>
+    </view>
+  </view>
+</view>

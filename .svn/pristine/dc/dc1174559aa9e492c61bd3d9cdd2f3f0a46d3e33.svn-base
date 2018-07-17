@@ -1,0 +1,2 @@
+/* pages/student/mycenter/myhome/myhome.wxss */
+@import "/pages/component/tabbar/tabbar.wxss";

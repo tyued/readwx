@@ -1,0 +1,153 @@
+/* pages/teacher/home/readXinde/readXinde.wxss *//* pages/student/home/bookReview/bookReview.wxss */
+@import "/pages/component/tabbar/tabbar.wxss";
+@import "/pages/font/iconfont.wxss";
+.reviewMain{
+  background-color: #f4f9fc;
+  width: 100%;
+  height: 100%;
+}
+page{
+  background-color: #f4f9fc !important;
+  width: 100%;
+  height: 100%;
+}
+.topline{
+  margin:0 auto;
+}
+.switch{
+  background-color: #fff;
+  height: 100rpx;
+  position: fixed;
+  top:2rpx;
+  left:0;
+  width: 100%;
+}
+.thisClass{
+  width: 30%;
+}
+.classText{
+  line-height: 95rpx;
+  color:#999;
+  font-size: 32rpx;
+}
+
+.active{
+  color:#000;
+  font-weight: 600;
+}
+
+.bluebot{
+  background-color: #5297F7;
+  width: 80rpx;
+  height: 5rpx;
+  margin:0 auto;
+}
+
+.reviewContent{
+  background-color: #fff;
+  width: 100%;
+  height: 230rpx;
+  margin-top:35rpx;
+  border-radius: 20rpx;
+  margin-bottom:10rpx;
+  box-shadow: 0rpx 13rpx 0rpx #d4e2f1;
+}
+
+.tipsLeft{
+  width: 60%;
+}
+.tipsRight{
+  width: 40%;
+  margin-bottom:50rpx;
+}
+
+.readFeel{
+  margin-bottom:130rpx;
+  overflow: hidden;
+}
+.iconBig{
+  font-size: 33rpx;
+  color:#888;
+}
+
+.iconmargin{
+  margin-left: 30rpx;
+}
+.feelTitle{
+  margin-bottom:60rpx;
+}
+.bookNameTitle{
+  font-size: 40rpx;
+  padding: 0;
+}
+.tipsName{
+  color:#666;
+}
+.tipsLevel{
+  color:#666;
+  background-color: #f3eff5;
+  text-align: center;
+  padding:5rpx 40rpx;
+  margin-left:10rpx;
+  font-size: 25rpx;
+  border-radius: 20rpx;
+}
+
+.tipsjing{
+  width: 90rpx;
+  height: 70rpx;
+  margin-left:63%;
+}
+.teacherName{
+  color:#666;
+  margin-top:40rpx;
+  text-align: right;
+}
+
+.reviewList{
+  padding:25rpx 15rpx;
+  overflow: hidden;
+}
+
+.writeImg{
+  width: 120rpx;
+  height: 120rpx;
+  margin:20rpx auto;
+}
+
+.tipsStatu{
+  margin-top:20rpx;
+}
+.heart,.chat{
+  width: 35rpx;
+  height: 30rpx;
+}
+.chat{
+  margin-left:45rpx;
+}
+.star{
+  width: 30rpx;
+  height: 30rpx;
+  margin-left:45rpx;
+}
+.heartText,.chatText,.starText{
+  color:#999;
+  margin-top:-5rpx;
+  margin-left:12rpx;
+}
+
+.active{
+  color:#000 !important;
+}
+
+.schoolxinde{
+  margin-left:20%;
+}
+
+.iosFixed {
+  padding-bottom:160rpx;
+  box-sizing:border-box;
+  overflow-y:scroll;
+  padding-top:140rpx;
+
+}

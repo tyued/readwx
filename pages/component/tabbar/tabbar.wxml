@@ -1,0 +1,35 @@
+<!--pages/component/tabbar/tabbar.wxml-->
+<!-- <view class="my-component-tab">
+  <block wx:for="{{tabBar}}" wx:for-item="item" wx:key="tabBar">
+    <view class="tabBar-item">
+      <navigator open-type="redirect" url="{{item.pagePath}}">
+        <view><image class="icon" src='{{item.iconPath}}'></image></view>
+        <view class="{{item.current== 1 ? 'tabBartext' :''}}">{{item.text}}</view>
+      </navigator>  
+    </view>
+  </block>
+</view> -->
+
+<template name="tabBar">
+<view class="tabbar_box" style="background-color:{{tabbar.backgroundColor}}; border-top-color:{{tabbar.borderStyle}}; {{tabbar.position == 'top' ? 'top:0' : 'bottom:0'}}">
+<block wx:for="{{tabbar.list}}" wx:for-item="item" wx:key="index">
+<navigator class="tabbar_nav" url="{{item.pagePath}}" style="width:{{1/tabbar.list.length*100}}%; color:{{item.selected ? tabbar.selectedColor : tabbar.color}}" open-type="redirect">
+<image class="tabbar_icon" src="{{item.selected ? item.selectedIconPath : item.iconPath}}"></image>
+<text style="color:{{item.selected ? tabbar.selectedColor : tabbar.color}}; font-size:20rpx">{{item.text}}</text>
+</navigator>
+</block>
+</view>
+</template>
+
+
+
+<template name="teachTabBar">
+<view class="tabbar_box" style="background-color:{{tabbar.backgroundColor}}; border-top-color:{{tabbar.borderStyle}}; {{tabbar.position == 'top' ? 'top:0' : 'bottom:0'}}">
+<block wx:for="{{tabbar.tealist}}" wx:for-item="item" wx:key="index">
+<navigator class="tabbar_nav" url="{{item.pagePath}}" style="width:{{1/tabbar.tealist.length*100}}%; color:{{item.selected ? tabbar.selectedColor : tabbar.color}}" open-type="redirect">
+<image class="tabbar_icon" src="{{item.selected ? item.selectedIconPath : item.iconPath}}"></image>
+<text style="color:{{item.selected ? tabbar.selectedColor : tabbar.color}}">{{item.text}}</text>
+</navigator>
+</block>
+</view>
+</template>

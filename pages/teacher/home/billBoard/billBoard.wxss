@@ -1,0 +1,151 @@
+/* pages/teacher/home/billBoard/billBoard.wxss */
+@import "/pages/component/tabbar/tabbar.wxss";
+@import "/pages/font/iconfont.wxss";
+.menu{
+  width: 100%;
+  height: 100rpx;
+  background-color: #fff;
+  text-align: center;
+  line-height: 100rpx;
+  position: relative;
+}
+
+.chaLine{
+  z-index: 99;
+  padding-top:80rpx;/*bottom值为footer的高*/
+  box-sizing:border-box;/*这里改变盒子模型为怪异盒模型，这样padding值不会增加main的高度*/
+  overflow-y:scroll;
+}
+.grade{
+  width:390rpx;
+  height: 100rpx;
+  margin:0 auto;
+}
+
+.gradeText{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 35rpx;
+  color:#000;
+  font-weight: 600;
+}
+
+.iconxia{
+  font-size: 25rpx;
+  line-height: 100rpx;
+  margin-left:5rpx;
+  margin-top:5rpx;
+}
+.panel{
+  width: 100%;
+  min-height: 200rpx;
+  box-shadow: 0rpx 13rpx 0rpx #d4e2f1;
+  margin:0 auto;
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+  background-color: #fff;
+  top:100rpx;
+  box-sizing:border-box;
+  padding:30rpx 0rpx 30rpx 0rpx;
+  position: absolute;
+  z-index:99;
+}
+.gradeTerm{
+  border-radius: 30rpx;
+  width: 186rpx;
+  height: 60rpx;
+  margin:0rpx 28rpx 0rpx 34rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.activeButton{
+  background-color: #5297f7;
+  color:#fff;
+  border-style:none;
+  margin-bottom: 60rpx;
+}
+
+.normalButton{
+  color: #5297f7;
+  background-color:#eff6ff;
+  margin-bottom: 60rpx;
+}
+
+.finish{
+  width: 300rpx;
+  height: 90rpx;
+  margin: 0 auto 34rpx auto;
+}
+.panellist{
+  overflow: hidden;
+  width: 100%;
+}
+.typeList{
+  width: 180rpx;
+  margin-right:30rpx;
+  margin-left:20rpx;
+}
+
+
+.Ranking{
+  width: 50rpx;
+}
+.RankingImg{
+  width: 50rpx;
+  height: 60rpx;
+  margin-top:20rpx;
+}
+.infoImg{
+  margin-left:30rpx;
+}
+.infoImgHead{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50rpx;
+}
+.info{
+  margin-left:35rpx;
+  width: 250rpx;
+}
+.infoname{
+  color:#666;
+  font-size: 30rpx;
+}
+
+
+.content{
+  height: 110rpx;
+  width: 100%;
+  margin-bottom:60rpx;
+}
+.infogarde{
+  font-size: 30rpx;
+  color:#5297f7;
+  line-height: 110rpx;
+}
+
+.infoLevel{
+  width: 110rpx;
+  height: 40rpx;
+  background-color: #5297f7;
+  border-radius: 20rpx;
+  color:#fff;
+  line-height: 40rpx;
+  font-size: 25rpx;
+  margin-top:10rpx;
+  font-style: italic;
+}
+
+.iosFixed{
+  padding-top:40rpx;
+}
+
+.rule{
+  width: 150rpx;
+  margin:30rpx auto;
+  color:#5297f7;
+  font-size: 28rpx;
+}

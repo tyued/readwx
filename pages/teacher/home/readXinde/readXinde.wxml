@@ -1,0 +1,146 @@
+<!--pages/teacher/home/readXinde/readXinde.wxml-->
+<!--pages/student/home/bookReview/bookReview.wxml-->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<view class="topline"></view>
+
+<view class="switch clear">
+    <view class="thisClass left schoolxinde" bindtap="switchThisClass">
+      <text class="classText tc block {{thisClass ? 'active' : ''}}">本校心得</text>
+      <text class="bluebot block" wx:if="{{thisClass}}"></text>
+    </view>
+    <view class="thisClass left"  bindtap="switchThisSchool">
+      <text class="classText tc block {{thisSchool ? 'active' : ''}}">本班心得</text>
+      <text class="bluebot block" wx:if="{{thisSchool}}"></text>
+    </view>
+</view>
+
+
+<view class="reviewMain iosFixed clear">
+ 
+
+  <view class="warp clear">
+    <view class="reviewContent clear" bindtap="renderTipsDetail">
+      <view class="reviewList clear">
+        <view class="tipsLeft left">
+          <text class="block bookNameTitle">小王子读后感</text>
+          <text class=" tipsName">周杰伦</text>
+          <text class=" tipsLevel">Lv1</text>
+          <view class="tipsStatu clear">
+            <image  src="../../../../image/heart.png" class="heart left"></image>
+            <text class="heartText block left">11</text>
+            <image src="../../../../image/chat.png" class="chat left"></image>
+            <text class="chatText block left">11</text>
+            <image src="../../../../image/star.png" class="star left"></image>
+            <text class="starText block left">11</text>
+          </view>
+        </view>
+
+        <view class="tipsRight left">
+          <image class="tipsjing block" src="../../../../image/jing.png"></image>
+          <text class="block teacherName">周杰伦老师推荐</text>
+        </view>
+      </view>
+    </view>
+     
+
+    <view class="reviewContent clear" >
+      <view class="reviewList clear">
+        <view class="tipsLeft left">
+          <text class="block bookNameTitle">小王子读后感</text>
+          <text class=" tipsName">周杰伦</text>
+          <text class=" tipsLevel">Lv1</text>
+          <view class="tipsStatu clear">
+            <image  src="../../../../image/heart.png" class="heart left"></image>
+            <text class="heartText block left">11</text>
+            <image src="../../../../image/chat.png" class="chat left"></image>
+            <text class="chatText block left">11</text>
+            <image src="../../../../image/star.png" class="star left"></image>
+            <text class="starText block left">11</text>
+          </view>
+        </view>
+
+        <view class="tipsRight left">
+          <image class="tipsjing block" src="../../../../image/jing.png"></image>
+          <text class="block teacherName">周杰伦老师推荐</text>
+        </view>
+      </view>
+    </view>
+
+
+
+    <view class="reviewContent clear" >
+      <view class="reviewList clear">
+        <view class="tipsLeft left">
+          <text class="block bookNameTitle">小王子读后感</text>
+          <text class=" tipsName">周杰伦</text>
+          <text class=" tipsLevel">Lv1</text>
+          <view class="tipsStatu clear">
+            <image  src="../../../../image/heart.png" class="heart left"></image>
+            <text class="heartText block left">11</text>
+            <image src="../../../../image/chat.png" class="chat left"></image>
+            <text class="chatText block left">11</text>
+            <image src="../../../../image/star.png" class="star left"></image>
+            <text class="starText block left">11</text>
+          </view>
+        </view>
+
+        <view class="tipsRight left">
+          <image class="tipsjing block" src="../../../../image/jing.png"></image>
+          <text class="block teacherName">周杰伦老师推荐</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="reviewContent clear">
+      <view class="reviewList clear">
+        <view class="tipsLeft left">
+          <text class="block bookNameTitle">小王子读后感</text>
+          <text class=" tipsName">周杰伦</text>
+          <text class=" tipsLevel">Lv1</text>
+          <view class="tipsStatu clear">
+            <image  src="../../../../image/heart.png" class="heart left"></image>
+            <text class="heartText block left">11</text>
+            <image src="../../../../image/chat.png" class="chat left"></image>
+            <text class="chatText block left">11</text>
+            <image src="../../../../image/star.png" class="star left"></image>
+            <text class="starText block left">11</text>
+          </view>
+        </view>
+
+        <view class="tipsRight left">
+          <image class="tipsjing block" src="../../../../image/jing.png"></image>
+          <text class="block teacherName">周杰伦老师推荐</text>
+        </view>
+      </view>
+    </view>
+
+
+    <view class="reviewContent clear">
+      <view class="reviewList clear">
+        <view class="tipsLeft left">
+          <text class="block bookNameTitle">小王子读后感</text>
+          <text class=" tipsName">周杰伦</text>
+          <text class=" tipsLevel">Lv1</text>
+          <view class="tipsStatu clear">
+            <image  src="../../../../image/heart.png" class="heart left"></image>
+            <text class="heartText block left">11</text>
+            <image src="../../../../image/chat.png" class="chat left"></image>
+            <text class="chatText block left">11</text>
+            <image src="../../../../image/star.png" class="star left"></image>
+            <text class="starText block left">11</text>
+          </view>
+        </view>
+
+        <view class="tipsRight left">
+          <image class="tipsjing block" src="../../../../image/jing.png"></image>
+          <text class="block teacherName">周杰伦老师推荐</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+ 
+
+
+
+<template is="teachTabBar" data="{{tabbar}}"/>

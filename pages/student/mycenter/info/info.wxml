@@ -1,0 +1,101 @@
+<!--pages/student/mycenter/info/info.wxml-->
+
+<!--pages/student/mycenter/myhome/myhome.wxml-->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<view class="content clear">
+  <view class="list clear">
+    <view class="number">
+      账号：123456
+    </view>
+  </view>
+  <view class="list">
+    <view class="floatr">
+      <image class="head block" src="{{initImg}}"></image>
+      <view class="fade">
+      </view>
+      <image src="../../../../image/camera.png" class="camera" bindtap='chooseImg'></image>
+    </view>
+  </view>
+</view>
+<view class="grayLine"></view>
+
+
+<view class="item clear">
+  <view class="left leftlist">
+    姓名
+  </view>
+  <view class="rightlist">
+    周杰伦
+  </view>
+</view>
+<view class="grayLine"></view>
+<view class="item clear">
+  <view class="left leftlist">
+    学校
+  </view>
+  <view class="rightlist">
+    天音实验中学
+  </view>
+</view>
+<view class="grayLine"></view>
+<view class="item clear">
+  <view class="left leftlist">
+    班级
+  </view>
+  <view class="rightlist">
+    三年二班
+  </view>
+</view>
+
+<view class="blodline"></view>
+<view class="item clear itemlevel">
+  <view class="left leftlist">
+    等级
+  </view>
+  <view class="rightlist">
+    Lv1一级阅读小书生
+  </view>
+</view>
+
+<view class="grayLine"></view>
+<view class="item clear">
+  <view class="left leftlist">
+    成长值/晋级成长值
+  </view>
+  <view class="rightlist">
+    25/250
+  </view>
+</view>
+
+<image class="quit" src="../../../../image/quit.png" bindtap='quit'></image>
+<!-- 
+<view class="list clear">
+  <view class="item clear">
+    <image src="../../../../image/chanicon.png" class="titleicon block left"></image>
+    <text class="titletext block left">挑战证书</text>
+    <image src="../../../../image/xia.png" class="handelicon block left"></image>
+  </view>
+  <view class="clear blueline"></view>
+  <view class="item clear">
+    <image src="../../../../image/readicon.png" class="titleicon block left"></image>
+    <text class="titletext block left">阅读成果报告</text>
+    <image src="../../../../image/xia.png" class="handelicon block left"></image>
+    <view class="circlered"></view>
+  </view>
+</view>
+
+
+
+<view class="list">
+  <view class="item clear">
+    <image src="../../../../image/bookicon.png" class="titleicon block left"></image>
+    <text class="titletext block left">我的书架</text>
+    <image src="../../../../image/xia.png" class="handelicon block left"></image>
+  </view>
+  <view class="clear blueline"></view>
+  <view class="item clear">
+    <image src="../../../../image/xindeicon.png" class="titleicon block left"></image>
+    <text class="titletext block left">我的心得</text>
+    <image src="../../../../image/xia.png" class="handelicon block left"></image>
+  </view>
+</view> -->

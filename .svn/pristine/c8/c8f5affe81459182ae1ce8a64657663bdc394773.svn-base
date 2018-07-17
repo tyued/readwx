@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/selectAccount/selectAccount",
+    "pages/student/home/home/home",
+    "pages/student/book/bookhome/bookhome",
+    "pages/student/challenge/challengehome/challengehome",
+    "pages/student/mycenter/myhome/myhome",
+    "pages/student/home/news/news",
+    "pages/student/home/tipsDetail/tipsDetail",
+    "pages/component/tabbar/tabbar",
+    "pages/student/home/promotionRules/promotionRules",
+    "pages/student/home/billBoard/billBoard",
+    "pages/student/home/bookDetail/bookDetail",
+    "pages/student/home/bookReview/bookReview",
+    "pages/student/home/writeInsight/writeInsight",
+    "pages/student/challenge/answer/answer"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "debug": true
+}

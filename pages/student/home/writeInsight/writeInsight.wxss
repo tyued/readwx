@@ -1,0 +1,76 @@
+/* pages/student/home/writeInsight/writeInsight.wxss */
+
+.textareaplaceholder{
+  font-size: 30rpx;
+  color:#bbb;
+  
+}
+
+.main{
+  padding-bottom:200rpx
+}
+.writeTitle{
+  height: 50rpx;
+  margin-bottom:40rpx;
+}
+
+.writetextarea{
+  margin-top:40rpx;
+}
+
+.blodline{
+  margin:20rpx;
+}
+
+.blodline{
+  margin-bottom: 40rpx;
+}
+.addpicmain{
+  position: relative;
+}
+.addpic{
+  width: 126rpx;
+  height: 126rpx;
+  margin-right:20rpx;
+  margin-bottom:10rpx;
+  margin-left:18rpx;
+}
+
+.delepic{
+  position: absolute;
+  width: 35rpx;
+  height: 35rpx;
+  left:105rpx;
+  top:10rpx;
+}
+.picBorder{
+  border-radius: 20rpx;
+  border:2rpx solid #a6d2ff;
+}
+
+.handel{
+  width: 630rpx;
+  left:70rpx;
+  position: fixed;
+  bottom:20rpx;
+}
+.save{
+  width: 300rpx;
+  height: 90rpx;
+}
+
+.issue{
+  width: 300rpx;
+  height: 90rpx;
+  margin-left:30rpx;
+} 
+
+input{
+  font-size: 40rpx;
+}
+textarea{
+  font-size: 30rpx;
+}
+.inputplaceholder{
+  color:#bbb;
+}

@@ -1,0 +1,182 @@
+/* pages/student/mycenter/bookrack/bookrack.wxss */
+
+@import "/pages/component/tabbar/tabbar.wxss";
+.switch{
+  width: 100%;
+  background-color: #f7f7f7;
+  height: 100rpx;
+  margin-bottom:30rpx;
+  position: fixed;
+  top:0;
+}
+.thisClass,.thisSchool{
+  width: 50%;
+  position: relative;
+}
+
+.thisClassText,.thisSchoolText{
+  color:#999;
+  width: 200rpx;
+  height: 95rpx;
+  line-height: 95rpx;
+  margin:0 auto;
+  font-size: 32rpx;
+}
+.active{
+  color:#000 !important;
+}
+
+.indexRank{
+  height: 90rpx;
+  width: 50rpx;
+  font-size: 40rpx;
+  line-height: 90rpx;
+}
+.myindexRank{
+  height: 140rpx;
+  width: 50rpx;
+  font-size: 40rpx;
+  line-height: 140rpx;
+  color:#fff;
+  margin-left:40rpx;
+}
+.activeline{
+  position: absolute;
+  top:90rpx;
+  left:140rpx;
+  width: 100rpx;
+  height: 6rpx;
+  background-color: #5297f7;
+}
+
+.booklist{
+  width: 716rpx;
+  margin:0 auto;
+}
+.blue{
+  color:#5297f7;
+}
+
+.iosFixed{
+  padding-top:100rpx !important;
+}
+
+.handel{
+  margin-left:15rpx;
+  height: 104rpx;
+}
+
+.tongji{
+  color:#999;
+  font-size: 28rpx;
+  line-height: 104rpx;
+  height: 104rpx;
+}
+.right{
+  float: right;
+  margin-right:15rpx;
+  color:#666;
+  font-size: 32rpx;
+  line-height: 104rpx;
+  height: 104rpx;
+}
+
+.bookitem{
+  width: 210rpx;
+  height: 358rpx;
+  margin:0rpx 15rpx 24rpx 15rpx;
+  position: relative;
+}
+
+.bookimg{
+  width: 210rpx;
+  height: 290rpx;
+  border:10rpx;
+  
+}
+.bookname{
+  font-size: 34rpx;
+  color:#000;
+  text-align: center;
+  width: 210rpx;
+  height: 100rpx;
+  line-height: 50rpx;
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2; 
+}
+
+.fade{
+  width: 210rpx;
+  height: 290rpx;
+  position: absolute;
+  top:0;
+  left:0;
+  background-color: #000;
+  opacity: 0.6;
+  border-radius: 10rpx;
+}
+
+.fadebottom{
+  width: 210rpx;
+  height: 60rpx;
+  position: absolute;
+  bottom:70rpx;
+  left:0;
+  background-color: #000;
+  opacity: 0.6;
+  border-bottom-left-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+}
+
+.gou{
+  width: 44rpx;
+  height: 44rpx;
+  margin-left:150rpx;
+  margin-top:10rpx;
+  z-index:999;
+}
+
+.bottomhandel{
+  position: fixed;
+  left:0;
+  bottom:0;
+  background-color: #5297f7;
+  height: 90rpx;
+  z-index:9999;
+  width: 100%;
+}
+
+.checkall{
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 100%;
+  border:4rpx solid #fff;
+  margin-top:20rpx;
+  margin-left:32rpx;
+}
+
+.handeltext{
+  color:#fff;
+  line-height: 90rpx;
+  font-size: 32rpx;
+  margin-left:12rpx;
+}
+
+.dele{
+  color:#fff;
+  line-height: 90rpx;
+  font-size: 32rpx;
+  margin-left:174rpx;
+}
+
+.gouicon{
+  width: 44rpx;
+  height: 44rpx;
+  margin-top:20rpx;
+  margin-left:32rpx;
+  display: block;
+  float: left;
+}

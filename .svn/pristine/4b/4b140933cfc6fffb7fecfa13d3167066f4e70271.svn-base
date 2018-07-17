@@ -1,0 +1,44 @@
+<!--pages/student/home/news/news.wxml-->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<view class="main">
+
+<view class="dynamicList clear" bindtap="tipsDetail">
+<image class="dynamicHead left" src="../../../../image/ex.png"></image>
+<view class="dynamicInfo left">
+<view class="redCircle"></view>
+<text class="textName">周杰伦</text>
+<text class="viewTime">2018-04-05</text>
+<text class="block textBook">发布了读书心得：<text class="otherColor">《小王子》真是给成年人的心灵来了一次很好的洗刷</text></text>
+</view>
+</view>
+<view class="autoline clear"></view>
+
+
+<view class="dynamicList clear"  bindtap="tipsDetail">
+<image class="dynamicHead left" src="../../../../image/ex.png"></image>
+<view class="dynamicInfo left">
+<view class="redCircle"></view>
+<text class="textName">周杰伦</text>
+<text class="viewTime">2018-04-05</text>
+<text class="block textBook">发布了读书心得：<text class="otherColor">《小王子》真是给成年人的心灵来了一次很好的洗刷</text></text>
+</view>
+</view>
+<view class="autoline clear"></view>
+
+
+
+<view class="dynamicList clear"  bindtap="tipsDetail">
+<image class="dynamicHead left" src="../../../../image/ex.png"></image>
+<view class="dynamicInfo left">
+<view class="redCircle"></view>
+<text class="textName">周杰伦</text>
+<text class="viewTime">2018-04-05</text>
+<text class="block textBook">发布了读书心得：<text class="otherColor">《小王子》真是给成年人的心灵来了一次很好的洗刷</text></text>
+</view>
+</view>
+<view class="autoline clear"></view>
+</view>
+<template is="tabBar" data="{{tabbar}}"/>
+<!-- <my-component-tab>
+    
+</my-component-tab> -->

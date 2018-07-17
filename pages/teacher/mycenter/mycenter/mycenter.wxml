@@ -1,0 +1,56 @@
+<!--pages/student/mycenter/info/info.wxml-->
+
+<!--pages/student/mycenter/myhome/myhome.wxml-->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<view class="content clear">
+  <view class="list clear">
+    <view class="number">
+      账号：123456
+    </view>
+  </view>
+  <view class="list">
+    <view class="floatr">
+      <image class="head block" src="{{initImg}}"></image>
+      <view class="fade">
+      </view>
+      <image src="../../../../image/camera.png" class="camera" bindtap='chooseImg'></image>
+    </view>
+  </view>
+</view>
+<view class="grayLine"></view>
+
+
+<view class="item clear">
+  <view class="left leftlist">
+    姓名
+  </view>
+  <view class="rightlist">
+    周杰伦
+  </view>
+</view>
+<view class="grayLine"></view>
+<view class="item clear">
+  <view class="left leftlist">
+    学校
+  </view>
+  <view class="rightlist">
+    天音实验中学
+  </view>
+</view>
+<view class="grayLine"></view>
+<view class="{{isshowMore ? 'grade clear' : 'item clear'}}">
+  <view class="left leftlist"  bindtap="showmore">
+    班级
+    <image src="../../../../image/xia.png" class="{{isshowMore ? 'rightIcon' : 'xiaicon'}}"></image>
+  </view>
+  <view class="{{isshowMore ?' classlist moreclass' : 'rightlist'}}">
+    <text class="classname">三年二班 </text>
+    <text class="classname">三年二班 </text>
+    <text class="classname">三年二班 </text>
+    <text class="classname">三年二班 </text>
+    <text class="classname">三年二班 </text>
+  </view>
+</view>
+
+
+<image class="quit" src="../../../../image/quit.png" bindtap='quit'></image>

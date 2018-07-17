@@ -1,0 +1,97 @@
+<!--pages/student/book/bookhome/bookhome.wxml-->
+<!-- <import src="/pages/component/tabbar/tabbar.wxml"/>
+<text>pages/student/book/bookhome/bookhome.wxml</text>
+
+<template is="tabBar" data="{{tabbar}}"/> -->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<view class="topline"></view>
+<view class="menu clear">
+<view class="grade left" bindtap="chooseGrade">
+  <view class="gardeDetail">
+    <text class="gradeText left">全年级</text>
+    <icon class="iconfont icon-jiantou1 left iconxia {{isshowGrade ? 'active' : ''}}"></icon>
+  </view>
+</view>
+<view class="type left" bindtap="chooseType">
+<view class="typeDetail">
+    <text class="typeText block left">全部类型</text>
+    <icon class="iconfont icon-jiantou1 left iconxia {{isshowType ? 'active' : ''}}"></icon>
+  </view>
+</view>
+</view>
+<view class="panel clear" wx:if="{{isshowGrade}}">
+   <view class="clear block panellist">
+    <text class="block gradeTitle clear">学期</text>
+    <view class="gradeTerm left {{lastSemester ? 'activeButton' : 'normalButton'}}" bindtap="selectSemesterTop">上学期</view>
+    <view class="gradeTerm left {{nextTerm ? 'activeButton' : 'normalButton'}}" bindtap="selectSemesterNext">下学期</view>
+   </view>
+   <view class="clear block panellist">
+    <text class="block gradeTitle clear">年级</text>
+    <view class="gradeTerm left normalButton" bindtap="selectSemester">一年级</view>
+    <view class="gradeTerm left normalButton" bindtap="selectSemester">二年级</view>
+    <view class="gradeTerm left normalButton" bindtap="selectSemester">一年级</view>
+    <view class="gradeTerm left normalButton" bindtap="selectSemester">二年级</view>
+    <view class="gradeTerm left normalButton" bindtap="selectSemester">二年级</view>
+   </view>
+   <image src="../../../../image/finish.png" class="finish block"></image>
+</view>
+
+<view class="panel clear panellist" wx:if="{{isshowType}}">
+  <view class="gradeTerm left normalButton typeList">全部类型</view>
+  <view class="gradeTerm left normalButton typeList">小说/文学</view>
+  <view class="gradeTerm left normalButton typeList">小说/文学</view>
+  <view class="gradeTerm left normalButton typeList">小说/文学</view>
+  <view class="gradeTerm left normalButton typeList">小说/文学</view>
+  <view class="gradeTerm left normalButton typeList">小说/文学</view>
+  <view class="gradeTerm left normalButton typeList">小说/文学</view>
+</view>
+
+<view class="warp bookmain main clear">
+<view class="booklist clear">
+  <image src="../../../../image/bookex.png" class="left bookimg"></image>
+  <image src="../../../../image/xuandu.png" class="readtype"></image>
+  <view class="left bookinfo clear">
+    <text class="block bookname">小王子</text>
+    <text class="block bookautho">水水水水</text>
+    <text class="block bookautho">上学期</text>
+    <text class="block bookautho">哲学</text>
+    <view class="readnum clear">
+      <icon class="iconfont icon-ren111 left numicon"></icon>
+      <text class="num block">19人在阅读</text>
+    </view>
+  </view>
+</view>
+<view class="autoline clear"></view>
+<view class="booklist clear">
+  <image src="../../../../image/bookex.png" class="left bookimg"></image>
+  <image src="../../../../image/bidu.png" class="readtype"></image>
+  <view class="left bookinfo clear">
+    <text class="block bookname">小王子</text>
+    <text class="block bookautho">水水水水</text>
+    <text class="block bookautho">上学期</text>
+    <text class="block bookautho">哲学</text>
+    <view class="readnum clear">
+      <icon class="iconfont icon-ren111 left numicon"></icon>
+      <text class="num block">19人在阅读</text>
+    </view>
+  </view>
+</view>
+<view class="autoline clear"></view>
+<view class="booklist clear">
+  <image src="../../../../image/bookex.png" class="left bookimg"></image>
+  <image src="../../../../image/bidu.png" class="readtype"></image>
+  <view class="left bookinfo">
+    <text class="block bookname">小王子</text>
+    <text class="block bookautho">水水水水</text>
+    <text class="block bookautho">上学期</text>
+    <text class="block bookautho">哲学</text>
+    <view class="readnum clear">
+      <icon class="iconfont icon-ren111 left numicon"></icon>
+      <text class="num block">19人在阅读</text>
+    </view>
+  </view>
+</view>
+<view class="autoline clear"></view>
+</view>
+
+<template is="tabBar" data="{{tabbar}}"/>

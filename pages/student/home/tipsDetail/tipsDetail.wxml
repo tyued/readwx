@@ -1,0 +1,121 @@
+<!--pages/student/home/tipsDetail/tipsDetail.wxml-->
+<view style="{{isfade ? 'overflow:hidden;height:100%':''}}">
+<view class="topline"></view>
+<view class="warp">
+  <view class="tipsDetail">
+    <text class="bookName">《小王子》读后感</text>
+   
+    <image src="../../../../image/xia.png" wx:if="{{iscollect || isStudent}}" class="xia" bindtap="showfade" ></image>
+  </view>
+
+  <view class="dynamicList clear"  bindtap="tipsDetail">
+    <image class="dynamicHead left" src="../../../../image/ex.png"></image>
+    <view class="dynamicInfo left">
+      <text class="viewTime block">周杰伦</text>
+      <text class="level">Lv1</text>
+      <text class="textName block">2018-04-05</text>
+    </view>
+     <image class="jing" src="../../../../image/jing.png"></image>
+  </view>
+  <view class="bookimg">
+    <image class="bookimg" src="../../../../image/ex.png" mode="aspectFit"></image>
+  </view>
+  <text class="bookContent block">今天，我读完了《格林童话2》这本书，在这本书中，我进入了美丽的童话世界。我最喜欢《青蛙王子》这篇故事。通过这篇故事，我懂得了答应别人的事情一定要做到。这篇故事还告诉我们不要说谎奥。
+  </text>
+  <view class="handel clear" wx:if="{{isStudent}}">
+    <view class="dianzan">
+      <view class="zanbg">
+         <image src="../../../../image/writeheart.png" class="writeheart"></image>
+      </view>
+      <text class="tc block">点赞(1252)</text>
+    </view>
+  </view>
+
+
+  <view class="handel clear" wx:if="{{isTeacher}}">
+    <view class="dianzanT left">
+      <view class="zanbg">
+         <image src="../../../../image/writeheart.png" class="writeheart"></image>
+      </view>
+      <text class="tc block">点赞(1252)</text>
+    </view>
+ 
+    <image src="../../../../image/shu.png" class="shu"></image>
+
+
+    <view class="tuijianT left">
+      <view class="zanbg">
+         <image src="../../../../image/zan.png" class="zan"></image>
+      </view>
+      <text class="tc block">推荐</text>
+    </view>
+  </view>
+
+</view>
+
+<view class="highline clear">
+</view>
+
+<view class="main warp clear block">
+  <text class="block clear hotpinlun">热门评论 (1234) </text>
+
+  <view class="pinlunList clear"  bindtap="tipsDetail">
+    <image class="pinlunHead left" src="../../../../image/ex.png"></image>
+    <view class="pinlunInfo left">
+      <text class="viewTime colorgray">周杰伦</text>
+      <text class="italic tc">LV1</text>
+      <text class="block pinluncontent">这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试</text>
+      <text class="textName block left clear">5-12 21:22</text>
+      <text class="delete block left">删除</text>
+      <image src="../../../../image/heart.png" class="clear heart block left"></image>
+      <text class="zannum block left">99</text>
+      <image src="../../../../image/chat.png" class="clear duihuakuang block left"></image>
+      <text class="pinlunnum block left">23</text>
+    </view>
+  </view>
+
+  <view class="pinlunList clear"  bindtap="tipsDetail">
+    <image class="pinlunHead left" src="../../../../image/ex.png"></image>
+    <view class="pinlunInfo left">
+      <text class="viewTime clear colorgray">周杰伦</text>
+      <text class="italic tc clear">LV1</text>
+      <text class="block clear pinluncontent">这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试</text>
+      <text class="textName block left clear">5-12 21:22</text>
+      <text class="delete block left">删除</text>
+      <image src="../../../../image/heart.png" class="clear heart block left"></image>
+      <text class="zannum block left">99</text>
+      <image src="../../../../image/chat.png" class="clear duihuakuang block left"></image>
+      <text class="pinlunnum block left">23</text>
+    </view>
+  </view>
+
+  <view class="pinlunList clear"  bindtap="tipsDetail">
+    <image class="pinlunHead clear left" src="../../../../image/ex.png"></image>
+    <view class="pinlunInfo left ">
+      <text class="viewTime clear colorgray">周杰伦</text>
+      <text class="italic tc">LV1</text>
+      <text class="block pinluncontent">测试</text>
+      <text class="textName block left clear">5-12 21:22</text>
+      <text class="delete block left">删除</text>
+      <image src="../../../../image/heart.png" class="clear heart block left"></image>
+      <text class="zannum block left">99</text>
+      <image src="../../../../image/chat.png" class="clear duihuakuang block left"></image>
+      <text class="pinlunnum block left">23</text>
+    </view>
+  </view>
+</view>
+</view>
+
+<view class="writehandel clear">
+  <input placeholder="写评论" focus="{{focus}}" class="write left" placeholder-class="writeplaceholder" confirm-type="send" selection-start="3" selection-end="20" cursor="6"/>
+  <view class="finish left">发布</view>
+</view>
+ 
+<view class="fade" wx:if="{{isfade}}">
+</view>
+<view class="bottomHandel" wx:if="{{isfade}}">
+  <view class="collect" bindtap="collect">收藏</view>
+  <view class="highline"></view>
+  <view class="cancel" bindtap="cancel">取消</view>
+</view>
+

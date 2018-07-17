@@ -1,0 +1,160 @@
+/* pages/student/home/bookReview/bookReview.wxss */
+@import "/pages/component/tabbar/tabbar.wxss";
+@import "/pages/font/iconfont.wxss";
+.reviewMain{
+  background-color: #f4f9fc;
+  width: 100%;
+  height: 100%;
+  padding-bottom:160rpx;
+}
+
+
+page{
+  background-color: #f4f9fc !important;
+  width: 100%;
+  height: 100%;
+}
+.warp{
+  margin-top:30rpx;
+}
+.topline{
+  margin:0 auto;
+}
+.switch{
+  background-color: #fff;
+  height: 100rpx;
+  margin-bottom:20rpx;
+}
+.thisClass{
+  width: 33%;
+}
+.classText{
+  line-height: 100rpx;
+  color:#999;
+  font-size: 32rpx;
+}
+
+.active{
+  color:#000;
+  font-weight: 600;
+}
+
+.bluebot{
+  background-color: #5297F7;
+  width: 80rpx;
+  height: 5rpx;
+  margin:0 auto;
+}
+
+.reviewContent{
+  background-color: #fff;
+  width: 100%;
+  height: 230rpx;
+  margin-top:25rpx;
+  border-radius: 20rpx;
+  margin-bottom:10rpx;
+  box-shadow: 0rpx 13rpx 0rpx #d4e2f1;
+  overflow: hidden;
+}
+
+.tipsLeft{
+  width: 60%;
+}
+.tipsRight{
+  width: 40%;
+  margin-bottom:50rpx;
+}
+
+.readFeel{
+  margin-bottom:130rpx;
+  overflow: hidden;
+}
+
+.feelTitle{
+  margin-bottom:60rpx;
+}
+.bookNameTitle{
+  font-size: 40rpx;
+  padding: 0;
+}
+.tipsName{
+  color:#666;
+}
+.tipsLevel{
+  color:#666;
+  background-color: #f3eff5;
+  text-align: center;
+  padding:3rpx 30rpx;
+  margin-left:10rpx;
+  font-size: 25rpx;
+  border-radius: 20rpx;
+}
+
+.tipsjing{
+  width: 84rpx;
+  height: 70rpx;
+  margin-left:63%;
+}
+.teacherName{
+  color:#666;
+  margin-top:40rpx;
+  text-align: right;
+}
+
+.reviewList{
+  padding:25rpx 35rpx;
+  overflow: hidden;
+}
+
+.tipsStatu{
+  margin-top:20rpx;
+}
+.heart,.chat{
+  width: 35rpx;
+  height: 30rpx;
+}
+.chat{
+  margin-left:45rpx;
+}
+.star{
+  width: 30rpx;
+  height: 30rpx;
+  margin-left:45rpx;
+}
+.heartText,.chatText,.starText{
+  color:#999;
+  margin-top:-5rpx;
+  margin-left:12rpx;
+}
+
+.bookname{
+  font-size: 32rpx;
+  color:#2f3c4f;
+  padding-left:40rpx;
+  font-weight: 600;
+}
+
+.savedate{
+  color:#2f3c4f;
+  font-size: 28rpx;
+  margin-top:24rpx;
+  width:40%;
+  overflow: hidden;
+  padding-left: 35rpx;
+}
+
+.handel{
+  color:#2f3c4f;
+  font-size: 28rpx;
+  float:right;
+  margin-top:24rpx;
+  padding-right: 35rpx;
+  margin-bottom:25rpx;
+  width:40%;
+  overflow: hidden;
+  text-align: right;
+}
+
+.list{
+  overflow: hidden;
+}

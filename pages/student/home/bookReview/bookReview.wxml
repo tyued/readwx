@@ -1,0 +1,57 @@
+<!--pages/student/home/bookReview/bookReview.wxml-->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<view class="topline"></view>
+
+<view class="reviewMain clear">
+  <view class="switch clear">
+    <view class="thisClass left" bindtap="switchThisClass">
+      <text class="classText tc block {{thisClass ? 'active' : ''}}">本班心得</text>
+      <text class="bluebot block" wx:if="{{thisClass}}"></text>
+    </view>
+    <view class="thisClass left"  bindtap="switchThisSchool">
+      <text class="classText tc block {{thisSchool ? 'active' : ''}}">本校心得</text>
+      <text class="bluebot block" wx:if="{{thisSchool}}"></text>
+    </view>
+    <view class="thisClass left"  bindtap="switchThisMy">
+      <text class="classText tc block {{thisMy ? 'active' : ''}}">我的心得</text>
+      <text class="bluebot block" wx:if="{{thisMy}}"></text>
+    </view>
+  </view>
+
+  <view class="warp clear">
+    <view class="reviewContent clear" wx:for="{{bookDetail}}" wx:key="{{item.ID}}">
+      <view class="reviewList clear">
+        <view class="tipsLeft left">
+          <text class="block bookNameTitle">{{bookname}}读后感</text>
+          <text class=" tipsName">周杰伦</text>
+          <text class=" tipsLevel">Lv1</text>
+          <view class="tipsStatu clear">
+            <image  src="../../../../image/heart.png" class="heart left"></image>
+            <text class="heartText block left">{{item.PraiseHit}}</text>
+            <image src="../../../../image/chat.png" class="chat left"></image>
+            <text class="chatText block left">{{item.SubList.length}}</text>
+            <image src="../../../../image/star.png" class="star left"></image>
+            <text class="starText block left">{{item.CollectionHit}}</text>
+          </view>
+        </view>
+
+        <view class="tipsRight left" wx:if="item.HotHit > 0">
+          <image class="tipsjing block" src="../../../../image/jing.png"></image>
+          <text class="block teacherName">{{item.HotUser}}老师推荐</text>
+        </view>
+      </view>
+    </view>
+
+    <view wx:if="{{empty}}">
+      <image src="../../../../image/empty.png" class="empty"></image>
+      <view class="emptyText">还没有{{textCheck}}心得哦, 马上去写心得吧~</view>
+    </view>
+    <image src="../../../../image/write.png" class="writeImg block" data-bookid="{{bookDetail[0] ? bookDetail[0].BookId : ''}}" data-userid="{{bookDetail[0] ? bookDetail[0].UserId : ''}}" bindtap="renderWrite"></image>
+
+  </view>
+ 
+
+</view>
+
+
+<template is="tabBar" data="{{tabbar}}"/>

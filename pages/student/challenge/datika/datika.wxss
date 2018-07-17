@@ -1,0 +1,99 @@
+/* pages/student/challenge/datika/datika.wxss */
+page{height:100%}
+.content{
+  width: 100%;
+  height: 100%;
+  background-color: #408af7;
+  overflow: hidden;
+}
+.main-warp{
+  width: 670rpx;
+  min-height:600rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin:80rpx auto;
+  box-shadow: 0 14rpx 0 0 #d4e2f1;
+  padding-bottom:40rpx;
+}
+
+.bookTitle{
+  text-align: center;
+  font-size: 40rpx;
+  line-height: 180rpx;
+}
+
+.blueline{
+  background-color:#e6f3fc;
+  height: 2rpx;
+  width: 610rpx;
+  margin:0 auto;
+  z-index: 99;
+}
+
+.list{
+  position: relative;
+  width:100rpx;
+  height: 104rpx;
+  margin: 44rpx 36rpx;
+}
+.submited{
+  width:100rpx;
+  height: 104rpx;
+}
+.submitText{
+  position: absolute;
+  top:0rpx;
+  left:0rpx;
+  color:#fff;
+  font-size: 50rpx;
+  width: 100rpx;
+  height: 104rpx;
+  display: block;
+  text-align: center;
+  line-height: 104rpx;
+}
+
+.blockList{
+  width: 518rpx;
+  margin:0 auto;
+  height: 100%;
+  overflow: hidden;
+}
+
+.nosubText{
+  color:#a2b7c5;
+}
+
+.handel{
+  width: 550rpx;
+  height: 90rpx;
+  margin:0 auto;
+  margin-bottom:80rpx;
+}
+
+.handelblue,.handelyellow{
+  width: 250rpx;
+  height:90rpx;
+  display: block;
+}
+
+.listcancle{
+  margin-left:46rpx;
+}
+.handellist{
+  position: relative;
+  width: 250rpx;
+  height:90rpx;
+}
+
+.handelbluetext{
+  width: 250rpx;
+  height:90rpx;
+  position: absolute;
+  left:0;
+  top:0;
+  text-align: center;
+  line-height: 90rpx;
+  color:#fff;
+  font-size: 32rpx;
+}

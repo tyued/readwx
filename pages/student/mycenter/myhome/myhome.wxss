@@ -1,0 +1,152 @@
+/* pages/student/mycenter/myhome/myhome.wxss */
+@import "/pages/component/tabbar/tabbar.wxss";
+
+page{
+  width: 100%;
+  height: 100%;
+  background-color: #f3f9fc;
+  overflow: hidden;
+}
+
+.content{
+  width: 714rpx;
+  height: 414rpx;
+  background-color: #fff;
+  margin:36rpx auto;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.head{
+  width: 138rpx;
+  height: 138rpx;
+  border-radius: 100%;
+  margin:42rpx auto 30rpx auto;
+}
+
+.info{
+  width: 186rpx;
+  height: 40rpx;
+  margin:0rpx auto 26rpx auto;
+}
+
+.name{
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.level{
+  background-color: #f3eff6;
+  border-radius: 40rpx;
+  color:#c440e1;
+  padding:2rpx 20rpx;
+  font-size: 28rpx;
+}
+.progess{
+  width: 400rpx;
+  height: 54rpx;
+  margin:0 auto;
+  position: relative;
+  margin-left:175rpx;
+}
+
+.progessleft{
+  width: 55rpx;
+  height: 50rpx;
+  margin-left:10rpx;
+}
+.progessitem{
+  height:32rpx;
+  width: 286rpx;
+  margin-top:10.5rpx;
+  overflow: hidden;
+}
+
+.graypro{
+  width: 48rpx;
+  height: 48rpx; 
+  position: absolute;
+  right:30rpx;
+}
+.progessinfo{
+  position: absolute;
+  width:98rpx;
+  height: 60rpx;
+  top:14rpx;
+  z-index: 99;
+  left:150rpx;
+  overflow: hidden;
+}
+
+.writestar{
+  width: 24rpx;
+  height: 24rpx;
+  margin-top:1rpx;
+}
+.protext{
+  color:#fff;
+  font-size: 20rpx;
+  line-height: 30rpx;
+}
+.leveltext{
+  font-size: 32rpx;
+  text-align: center;
+  margin-top:10rpx;
+}
+
+.list{
+  width: 100%;
+  background-color: #fff;
+  margin-top:36rpx;
+  height: 192rpx;
+}
+
+.item{
+  width: 100%;
+  height: 96rpx;
+  overflow: hidden;
+  position: relative;
+}
+
+.titleicon{
+  width: 40rpx;
+  height: 42rpx;
+  margin:30rpx;
+}
+
+.titletext{
+  width: 570rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  font-size: 32rpx;
+}
+.handelicon{
+  width: 30rpx;
+  height: 20rpx;
+  transform:rotate(270deg);
+  -ms-transform:rotate(270deg); /* Internet Explorer */
+  -moz-transform:rotate(270deg); /* Firefox */
+  -webkit-transform:rotate(270deg); /* Safari 和 Chrome */
+  -o-transform:rotate(270deg); /* Opera */
+  margin:32rpx 32rpx 32rpx 0rpx;
+}
+
+.blueline{
+  height: 2rpx;
+  background-color: #eee;
+  width: 88%;
+  margin-left:12%;
+}
+
+.circlered{
+  width: 13rpx;
+  height: 13rpx;
+  border-radius: 100%;
+  background-color: #dd4d42;
+  position: absolute;
+  top:40rpx;
+  left:40%;
+}
+
+.mybooklist{
+  margin-top:20rpx;
+}

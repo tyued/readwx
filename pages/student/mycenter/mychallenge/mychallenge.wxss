@@ -1,0 +1,146 @@
+/* pages/student/mycenter/mychallenge/mychallenge.wxss */
+@import "/pages/component/tabbar/tabbar.wxss";
+@import "/pages/font/iconfont.wxss";
+page{
+  background-color: #f4f9fc;
+}
+.menu{
+  width: 100%;
+  height: 100rpx;
+  position: fixed;
+  top:2rpx;
+  left:0;
+  z-index: 999;
+  background-color: #fff;
+}
+
+.chaLine{
+  z-index: 99;
+  padding-top:70rpx;/*bottom值为footer的高*/
+  box-sizing:border-box;/*这里改变盒子模型为怪异盒模型，这样padding值不会增加main的高度*/
+  overflow-y:scroll;
+}
+.grade{
+  width:370rpx;
+  height: 100rpx;
+  margin:0 auto;
+}
+
+.gradeText{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+
+.iconxia{
+  font-size: 25rpx;
+  line-height: 100rpx;
+  margin-left:5rpx;
+  margin-top:5rpx;
+}
+.panel{
+  width: 100%;
+  min-height: 200rpx;
+  box-shadow: 0rpx 13rpx 0rpx #d4e2f1;
+  margin:0 auto;
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+  background-color: #fff;
+  top:100rpx;
+  box-sizing:border-box;
+  padding:30rpx;
+  position: absolute;
+  z-index:99;
+}
+
+.gradeTitle{
+  color:#666;
+  margin-bottom: 60rpx;
+}
+
+.gradeTerm{
+  border-radius: 30rpx;
+  width: 150rpx;
+  height: 60rpx;
+  margin: 0rpx 11rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.activeButton{
+  background-color: #5297f7;
+  color:#fff;
+  border-style:none;
+  margin-bottom: 60rpx;
+}
+
+.normalButton{
+  color: #5297f7;
+  background-color:#eff6ff;
+  margin-bottom: 60rpx;
+}
+
+.finish{
+  width: 300rpx;
+  height: 90rpx;
+  margin: 0 auto 34rpx auto;
+}
+
+.panellist{
+  overflow: hidden;
+  width: 100%;
+}
+
+.certificate{
+  width: 670rpx; 
+  height: 386rpx;
+  position: absolute;
+  left:20rpx;
+  top:40rpx;
+  overflow: hidden;
+}
+
+.certificateList{
+  width: 710rpx;
+  height: 524rpx;
+  background-color: #fff;
+  border-radius: 30rpx;
+  margin:35rpx auto 0rpx auto;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0rpx 15rpx 0rpx 0rpx #d4e2f1;
+}
+
+.studentname{
+  position: absolute;
+  top:200rpx;
+  left:110rpx;
+  font-size: 28rpx;
+}
+
+.studentgrade{
+  position: absolute;
+  top:190rpx;
+  left:530rpx;
+  color:#f8969a;
+  font-size: 40rpx;
+}
+.bookname{
+  text-align: center;
+  margin-top:446rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+
+.date{
+  font-size: 26rpx;
+  position: absolute;
+  top:330rpx;
+  left:420rpx;
+}
+
+.main{
+  padding-bottom:150rpx;
+}

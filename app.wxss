@@ -1,0 +1,91 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+text{
+  font-family: "苹方";
+  color:#000;
+  font-size: 30rpx;
+}
+
+.left{
+  float: left;
+}
+.flex{
+  display: flex;
+  display: -webkit-flex;
+}
+.clear{
+ zoom: 1;
+}
+
+.autoline{
+  width:90%;
+  height: 2rpx;
+  margin: 0 auto;
+  background-color: #eee;
+}
+.top{
+  margin-top:40rpx;
+}
+.block{
+  display: block;
+}
+.main{
+    padding-bottom:120rpx;/*bottom值为footer的高*/
+    box-sizing:border-box;/*这里改变盒子模型为怪异盒模型，这样padding值不会增加main的高度*/
+    overflow-y:scroll;
+}
+.warp{
+  width: 90%;
+  margin:0 auto;
+}
+
+.iosFixed{
+    padding-bottom:120rpx;/*bottom值为footer的高*/
+    box-sizing:border-box;/*这里改变盒子模型为怪异盒模型，这样padding值不会增加main的高度*/
+    overflow-y:scroll;
+    padding-top:140rpx;/*bottom值为footer的高*/
+}
+.tc{
+  text-align: center;
+}
+.topline{
+  width: 100%;
+  height: 2rpx;
+  background-color: #f0f0f0;
+  margin-bottom:40rpx;
+  z-index: 999;
+}
+
+.blodline{
+  width: 100%;
+  height: 20rpx;
+  background-color: #f3f9fc;
+}
+
+.active{
+  color:#5297f7 !important;
+}
+
+.activeBg{
+  background-color: #5297f7 !important;
+}
+
+.empty{
+  width: 710rpx;
+  height: 468rpx;
+  margin:30% auto 0 auto;
+}
+
+.emptyText{
+   color:#919aa5;
+  font-size: 32rpx;
+  text-align: center;
+}

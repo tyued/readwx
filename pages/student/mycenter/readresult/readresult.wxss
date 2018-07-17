@@ -1,0 +1,116 @@
+/* pages/student/mycenter/readresult/readresult.wxss */
+
+page{
+  background-color: #f8d57b;
+}
+.baogao{
+  width: 100%;
+  height: 4011rpx;
+  position: relative;
+}
+
+.name{
+  position: absolute;
+  top:225rpx;
+  left:350rpx;
+  color:#5297f7;
+  font-size: 26rpx;
+}
+
+.partimg{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+  position: absolute;
+  border:6rpx solid #fff;
+  z-index:99;
+  top:105rpx;
+  left:340rpx;
+}
+
+.partA,.partB,.partC,.partD,.partE,.partF{
+  color: #5297f7;
+  position: absolute;
+  line-height: 40rpx;
+}
+
+.partA{
+  top:565rpx;
+  left:375rpx;
+  padding-right:85rpx;
+}
+
+.partB{
+  top:985rpx;
+  left:85rpx;
+  padding-right:85rpx;
+  width: 300rpx;
+}
+
+.partC{
+  top:1465rpx;
+  left:390rpx;
+  padding-right:85rpx;
+}
+
+.partD{
+  top:1945rpx;
+  left:280rpx;
+  width: 270rpx;
+  padding-right:100rpx;
+}
+
+
+.partE{
+  top:2515rpx;
+  left:340rpx;
+  width: 270rpx;
+  padding-right:100rpx;
+}
+
+.partF{
+  top:2985rpx;
+  left:280rpx;
+  width: 270rpx;
+  padding-right:100rpx;
+}
+.partAimg,.partBimg,.partCimg,.partDimg,.partEimg,.partFimg{
+  width: 86rpx;
+  height: 86rpx;
+  border-radius: 100%;
+  position: absolute;
+  border:6rpx solid #fff;
+  z-index:99;
+}
+
+.partAimg{
+  top:565rpx;
+  left:235rpx;
+}
+
+.partBimg{
+  top:985rpx;
+  left:425rpx;
+}
+
+.partCimg{
+  top:1465rpx;
+  left:245rpx;
+}
+
+
+.partDimg{
+  top:1935rpx;
+  left:595rpx;
+}
+
+
+.partEimg{
+  top:2515rpx;
+  left:195rpx;
+}
+
+.partFimg{
+  top:2970rpx;
+  left:600rpx;
+}

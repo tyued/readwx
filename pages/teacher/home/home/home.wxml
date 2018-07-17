@@ -1,0 +1,66 @@
+<!--pages/teacher/home/home/home.wxml-->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+
+<view class="main">
+  <view class="userInfo clear">
+    <image bindtap="renderbillBoard" class="levelIcon " src="../../../../image/levelIcon.png"></image>
+    <image class="pic left clear"  bindtap="rendermyhome" src="../../../../image/ex.png"></image>
+    <view class="infolevel clear left">
+      <text class="name" bindtap="rendermyhome">周杰伦</text>
+      <view class="mynews" bindtap="myNews">
+        <image class="message" src="../../../../image/message.png"></image>
+        <view class="circleRed"></view>
+      </view>
+    </view>
+  </view>
+  <view class="menu clear">
+    <view class="grade" bindtap="chooseGrade">
+      <text class="gradeText left">二年级上学期-未通过</text>
+      <icon class="iconfont icon-jiantou1 left iconxia {{isshowGrade ? 'active' : ''}}"></icon>
+    </view>
+  </view>
+  <view class="panel clear" wx:if="{{isshowGrade}}">
+    <view class="clear block panellist">
+      <view class="gradeTerm left {{lastSemester ? 'activeButton' : 'normalButton'}}" bindtap="selectSemesterTop">上学期</view>
+      <view class="gradeTerm left {{nextTerm ? 'activeButton' : 'normalButton'}}" bindtap="selectSemesterNext">下学期</view>
+      <view class="gradeTerm left {{nextTerm ? 'activeButton' : 'normalButton'}}" bindtap="selectSemesterNext">下学期</view>
+      <view class="gradeTerm left {{nextTerm ? 'activeButton' : 'normalButton'}}" bindtap="selectSemesterNext">下学期</view>
+    </view>
+  </view>
+  <view class="booklist clear">
+    <view class="bookitem">
+      <image src="../../../../image/bookex.png" class="bookimg" bindtap="renderprogess"></image>
+      <view class="progress">
+        <progress percent="30" stroke-width="15" activeColor="#5297f7" backgroundColor="#aaaaaa" active />
+        <view class="passnum">挑战通过：<text class="yellowText">2</text>/20</view>
+      </view>
+      <text class="bookreadnum block" bindtap="renderXinde">读书心得：14篇</text>
+    </view>
+    <view class="bookitem">
+      <image src="../../../../image/bookex.png" class="bookimg"></image>
+      <view class="progress">
+        <progress percent="30" stroke-width="15" activeColor="#5297f7" backgroundColor="#aaaaaa" active />
+        <view class="passnum">挑战通过：2/20</view>
+      </view>
+      <text class="bookreadnum block">读书心得：14篇</text>
+    </view>
+    <view class="bookitem">
+      <image src="../../../../image/bookex.png" class="bookimg"></image>
+      <view class="progress">
+        <progress percent="30" stroke-width="15" activeColor="#5297f7" backgroundColor="#aaaaaa" active />
+        <view class="passnum">挑战通过：2/20</view>
+      </view>
+      <text class="bookreadnum block">读书心得：14篇</text>
+    </view>
+    <view class="bookitem">
+      <image src="../../../../image/bookex.png" class="bookimg"></image>
+      <view class="progress">
+        <progress percent="30" stroke-width="15" activeColor="#5297f7" backgroundColor="#aaaaaa" active />
+        <view class="passnum">挑战通过：2/20</view>
+      </view>
+      <text class="bookreadnum block">读书心得：14篇</text>
+    </view>
+  </view>
+
+</view>
+<template is="teachTabBar" data="{{tabbar}}"/>

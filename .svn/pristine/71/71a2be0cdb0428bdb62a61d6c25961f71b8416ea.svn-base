@@ -1,0 +1,218 @@
+/* pages/student/home/tipsDetail/tipsDetail.wxss */
+@import "/pages/component/tabbar/tabbar.wxss";
+@import "/pages/font/iconfont.wxss";
+.tipsDetail{
+  width: 100%;
+  margin:0 auto;
+}
+.bookName{
+  font-size: 40rpx;
+}
+.dynamicList{
+  width: 100%;
+  height: 110rpx;
+  margin:35rpx auto;
+  position: relative;
+}
+.pinlunList{
+  width: 100%;
+  margin:60rpx auto;
+  overflow: hidden;
+}
+.dynamicHead{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+}
+.textName{
+  color:#999;
+  font-weight: 500;
+  font-size: 25rpx;
+}
+.otherColor{
+  color:#000;
+}
+.dynamicInfo{
+  margin-left:20rpx;
+  margin-top:10rpx;
+}
+.textBook{
+  font-size:40rpx;
+  line-height: 40rpx;
+  overflow: hidden; 
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+  width: 550rpx;
+  color:#999;
+}
+.main{
+  margin:0 auto;
+ 
+}
+.bookimg{
+  width: 680rpx;
+  height: 340rpx;
+}
+.bookContent{
+  margin-top: 30rpx;
+  line-height: 50rpx;
+}
+.handelshu{
+  width: 5rpx;
+  height: 60rpx;
+  margin: 0rpx 80rpx;
+  
+}
+
+.handelstyle{
+  width: 80rpx;
+  height: 80rpx;
+  color:#fff;
+  border-radius: 50rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 50rpx;
+  margin:30rpx auto;
+}
+
+.handel-no{
+  background-color: #c5c3c7;
+}
+.icon-zan-active{
+  background-color: #5297f7;
+}
+
+.icon-xin-active{
+  background-color: #ff5e33;
+}
+.handel{
+  width: 400rpx;
+  margin:0 auto;
+  margin-top:70rpx;
+}
+
+.icon-xin-active{
+  background-color: #ff5e33;
+}
+.handel{
+  width: 500rpx;
+  margin:0 auto;
+  margin-top:70rpx;
+  margin-bottom:65rpx;
+  height: 140rpx;
+}
+.tuijian,.dianzan{
+  width: 160rpx;
+  margin:0rpx auto;
+}
+.tc{
+  color:#666;
+}
+.highline{
+  width: 100%;
+  height: 25rpx;
+  background-color: #eee;
+}
+.pinlun{
+  margin-bottom: 250rpx;
+}
+.italic{
+  font-style:italic;
+  color:#c440e1;
+  width: 90rpx;
+  height: 40rpx;
+  background-color: #eee;
+  font-size: 20rpx;
+  padding: 5rpx 25rpx;
+  border-radius: 20rpx;
+  margin-left:25rpx;
+}
+
+.pinluncontent{
+  margin:10rpx 0;
+}
+.pinlunHead{
+  width: 65rpx;
+  height: 65rpx;
+  border-radius: 100%;
+}
+.pinlunInfo{
+  margin-left:30rpx;
+  width: 85%;
+}
+.colorgray{
+  color:#999 !important;
+}
+.delete{
+  color:#5297f7;
+  font-size: 25rpx;
+  margin-left:50rpx;
+}
+.heart{
+  width: 35rpx;
+  height: 30rpx;
+  margin-left:150rpx;
+}
+.duihuakuang{
+  margin-left:40rpx;
+  font-size: 45rpx;
+  width: 35rpx;
+  height: 30rpx;
+}
+.zannum{
+  font-size: 25rpx;
+  line-height: 20rpx;
+  color:#666;
+  margin-left:10rpx;
+  margin-bottom:5rpx;
+  margin-top:5rpx;
+}
+.pinlunnum{
+  font-size: 25rpx;
+  line-height: 20rpx;
+  color:#666;
+  margin-left:10rpx;
+  margin-top:5rpx;
+}
+
+.jiantouxia{
+  color:#999;
+  margin-right:20rpx;
+  float:right;
+}
+.fade{
+  width: 100%;
+  height: 100%;
+  background-color: #666;
+  opacity: 0.6;
+  overflow: hidden;
+  position: fixed;
+  z-index: 9999;
+  bottom:0;
+}
+.bottomHandel{
+  z-index:99999;
+  background-color: #fff;
+  height: 300rpx;
+  bottom:0;
+  left:0;
+  width:100%;
+  position: fixed;
+}
+
+.collect,.cancel{
+   text-align: center;
+   height: 142rpx;
+   line-height: 142rpx;
+   color:#5297f7;
+}
+.xia{
+  width: 40rpx;
+  height: 20rpx;
+  float: right;
+  margin-top:10rpx;
+}
+.hotpinlun{
+  margin-top:40rpx;
+  
+}

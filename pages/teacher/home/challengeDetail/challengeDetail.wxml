@@ -1,0 +1,69 @@
+<!--pages/teacher/home/challengeDetail/challengeDetail.wxml-->
+
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+<view class="topline"></view>
+<view class="main">
+  <view class="progessmain clear">
+    <view class="challenge clear">
+      <view class="block title" bindtap="renderMoreRead">
+        <image src="../../../../image/blueheng.png" class="block left leftheng"></image>
+        <text class="block left passtext">9位已通过挑战</text>
+        <image src="../../../../image/blueheng.png" class="block left rightheng"></image>
+      </view>
+      
+      <view class="challengeWarp">
+        <view class="challengelist left">
+          <image src="../../../../image/ex.png" class="listimg block"></image>
+          <text class="block listname">周杰伦</text>
+          <text class="block listgrade">成绩：<text class="fenshu">88分</text></text>
+        </view>
+
+        <view class="challengelist left">
+          <image src="../../../../image/ex.png" class="listimg block"></image>
+          <text class="block listname">周杰伦</text>
+          <text class="block listgrade">成绩：<text class="fenshu">88分</text></text>
+        </view>
+        
+        <view class="challengelist left">
+          <image src="../../../../image/ex.png" class="listimg block"></image>
+          <text class="block listname">周杰伦</text>
+          <text class="block listgrade">成绩：<text class="fenshu">88分</text></text>
+        </view>
+
+        <view class="challengelist left">
+          <image src="../../../../image/ex.png" class="listimg block"></image>
+          <text class="block listname">周杰伦</text>
+          <text class="block listgrade">成绩：<text class="fenshu">88分</text></text>
+        </view>
+
+        <view class="challengelist left">
+          <image src="../../../../image/ex.png" class="listimg block"></image>
+          <text class="block listname">周杰伦</text>
+          <text class="block listgrade">成绩：<text class="fenshu">88分</text></text>
+        </view>
+      </view>
+    </view>
+
+
+
+
+    <view class="challenge clear">
+      <view class="block title" bindtap="renderMoreRead">
+        <image src="../../../../image/blueheng.png" class="block left leftheng"></image>
+        <text class="block left passtext">0位未通过挑战</text>
+        <image src="../../../../image/blueheng.png" class="block left rightheng"></image>
+      </view>
+      <view class="challengeWarp">
+        <view class="challengelist left">
+          <image src="../../../../image/ex.png" class="listimg block"></image>
+          <text class="block listname">周杰伦</text>
+          <text class="block listgrade">未通过</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+
+<template is="teachTabBar" data="{{tabbar}}"/>

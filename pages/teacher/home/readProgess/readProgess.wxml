@@ -1,0 +1,108 @@
+<!--pages/teacher/home/readProgess/readProgess.wxml-->
+<import src="/pages/component/tabbar/tabbar.wxml"/>
+
+<view class="warp bookmain clear">
+  <view class="booklist clear">
+    <image src="../../../../image/bookex.png" class="left bookimg"></image>
+    <view class="left bookinfo clear">
+      <text class="block bookname">小王子</text>
+      <text class="block bookautho">水水水水</text>
+      <text class="block bookautho">哲学</text>
+    </view>
+  </view>
+</view>
+
+<view class="topline"></view>
+<view class="progessmain clear">
+  <view class="challenge clear">
+    <view class="block title" bindtap="renderMoreRead">
+      <view class="left challengetitle">挑战情况</view>
+      <view class="more">更多></view>
+    </view>
+    
+    <view class="block challengeWarp">
+      <view class="challengelist left">
+        <image src="../../../../image/ex.png" class="listimg block"></image>
+        <text class="block listname">周杰伦</text>
+        <text class="block listgrade">成绩：<text class="fenshu">88分</text></text>
+      </view>
+
+      <view class="challengelist left">
+        <image src="../../../../image/ex.png" class="listimg block"></image>
+        <text class="block listname">周杰伦</text>
+        <text class="block listgrade">成绩：<text class="fenshu">88分</text></text>
+      </view>
+
+      <view class="challengelist left">
+        <image src="../../../../image/ex.png" class="listimg block"></image>
+        <text class="block listname">周杰伦</text>
+        <text class="block listgrade">成绩：<text class="fenshu">88分</text></text>
+      </view>
+
+      <view class="challengelist left">
+        <image src="../../../../image/ex.png" class="listimg block"></image>
+        <text class="block listname">周杰伦</text>
+        <text class="block listgrade">成绩：<text class="fenshu">88分</text></text>
+      </view>
+    </view>
+  </view>
+  
+</view>
+
+
+<view class="blodline"></view>
+
+<view class="warp main clear">
+  <view class="clear feelTitle">
+    <text class="tipsTitle">读书心得</text>
+    <view class="tipsHandel">
+      <text class="textOpen" bindtap="renderReadMore">更多></text>
+    </view>
+  </view>
+  
+<view bindtap="renderBookdetail" class="clear BookdetailList">
+  <view class="tipsLeft left">
+    <text class="block bookNameTitle">小王子读后感</text>
+    <text class=" tipsName">周杰伦</text>
+    <text class=" tipsLevel">Lv1</text>
+    <view class="tipsStatu clear">
+      <image  src="../../../../image/heart.png" class="heart left"></image>
+      <text class="heartText block left">11</text>
+      <image src="../../../../image/chat.png" class="chat left"></image>
+      <text class="chatText block left">11</text>
+      <image src="../../../../image/star.png" class="star left"></image>
+      <text class="starText block left">11</text>
+    </view>
+  </view>
+
+  <view class="tipsRight left">
+    <image class="tipsjing block" src="../../../../image/jing.png"></image>
+    <text class="block teacherName">周杰伦老师推荐</text>
+  </view>
+</view>
+<view class="autoline listline clear"></view>
+
+<view bindtap="renderBookdetail"  class="clear BookdetailList">
+  <view class="tipsLeft left">
+    <text class="block bookNameTitle">小王子读后感</text>
+    <text class=" tipsName">周杰伦</text>
+    <text class=" tipsLevel">Lv1</text>
+    <view class="tipsStatu clear">
+      <image  src="../../../../image/heart.png" class="heart left"></image>
+      <text class="heartText block left">11</text>
+      <image src="../../../../image/chat.png" class="chat left"></image>
+      <text class="chatText block left">11</text>
+      <image src="../../../../image/star.png" class="star left"></image>
+      <text class="starText block left">11</text>
+    </view>
+  </view>
+
+  <view class="tipsRight left">
+    <image class="tipsjing block" src="../../../../image/jing.png"></image>
+    <text class="block teacherName">周杰伦老师推荐</text>
+  </view>
+</view>
+<view class="autoline listline clear"></view>
+</view>
+
+<template is="teachTabBar" data="{{tabbar}}"/>
